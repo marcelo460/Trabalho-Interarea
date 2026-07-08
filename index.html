@@ -17,11 +17,11 @@
     <nav class="hotbar">
         <div class="nav-container">
             <!-- Nome do museu no cantinho esquerdo -->
-            <a href="https://marcelo460.github.io/Trabalho-Interarea/" class="nav-logo">Museu de Camaçari</a>
+            <a href="#" id="Logo" class="nav-logo">Museu de Camaçari</a>
             <!-- Opções para navegar em diferentes partes do site -->
             <ul class="nav-links">
                 <li><a href="https://marcelo460.github.io/Trabalho-Interarea/">Início</a></li>
-                <li><a href="#galeria">Exposições</a></li>
+                <li><a href="#galeria" id="Expor" >Exposições</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#contato">Mais</a></li>
             </ul>
@@ -29,12 +29,18 @@
     </nav>
 
     <!-- Cabeçalho do Museu (Ajustado para não sumir embaixo da hotbar) -->
-    <header id="inicio" class="cabecalho">
+    <div id="inicio" class="cabecalho">
         <h1>Museu Digital de Camaçari</h1>
         <p>Compreenda o mundo ao seu redor com uma perspectiva diferente.</p>
-    </header>
+    </div>
 
-    <!-- Container Principal -->
+    <!-- Titulo da area de exposição do museu -->
+    <div id="exposicao" class="cabecalho">
+        <h1>Exposição</h1>
+        <p>Aprecie Camaçari através de nossas exposições abaixo: </p>
+    </div>
+
+    <!-- Container Principal - Tem as telas -->
     <main id="galeria" class="galeria">
 
         <!-- Obra -->
@@ -64,6 +70,126 @@
                 <h2 class="art-name">Mona Lisa</h2>
                 <p class="artista">Foi Eu</p>
                 <p class="localizacao">Museu do Louvre, Paris, França</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+                 alt="A Noite Estrelada" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">A Noite Estrelada</h2>
+                <p class="artista">Vincent van Gogh</p>
+                <p class="localizacao">Museu de Arte Moderna, Nova York</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard-Munch-The-Scream.jpg"
+                 alt="O Grito" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">The real Fah</h2>
+                <p class="artista">Lil Bro</p>
+                <p class="localizacao">É na Noruega, 🫩</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg"
+                 alt="O Nascimento de Vênus" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">O Nascimento de Vênus</h2>
+                <p class="artista">Sandro Botticelli</p>
+                <p class="localizacao">Xique-Xique, Bahia, Brasil</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project.jpg"
+                 alt="A Persistência da Memória" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">A Persistência da Memória</h2>
+                <p class="artista">Salmonela</p>
+                <p class="localizacao">Museu de Arte Moderna, Nova York</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg"
+                 alt="Moça com o Brinco de Pérola" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">Moça com o Brinco de Pérola</h2>
+                <p class="artista">Johannes Vermeer</p>
+                <p class="localizacao">Não sei</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Abaporu_-_Tarsila_do_Amaral%2C_1928.jpg"
+                 alt="Abaporu" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">Thomas.</h2>
+                <p class="artista">Tarsila do Amaral</p>
+                <p class="localizacao">MALBA, Buenos Aires, Argentina</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg"
+                 alt="A Grande Onda de Kanagawa" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">A Grande Onda de Kanagawa</h2>
+                <p class="artista">Xupalú Minhia vala</p>
+                <p class="localizacao">Museu Britânico, Londres, Reino Unido</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg"
+                 alt="Impressão, Nascer do Sol" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">Impressão, Nascer do Sol</h2>
+                <p class="artista">Claudio Moneuty</p>
+                <p class="localizacao">Museu Marmottan Monet, Paris, França</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
+                 alt="A Criação de Adão" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">A Criação de Adão</h2>
+                <p class="artista">Michelangelo</p>
+                <p class="localizacao">Parede daqui de casa</p>
+            </div>
+        </article>
+
+        <article class="card-img">
+            <div class="moldura">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+                 alt="O Beijo" class="art-image">
+            </div>
+            <div class="informacoes">
+                <h2 class="art-name">Beijoca</h2>
+                <p class="artista">Gustav Klimt</p>
+                <p class="localizacao">Galeria Belvedere, Viena, Áustria</p>
             </div>
         </article>
 

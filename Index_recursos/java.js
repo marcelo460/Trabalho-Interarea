@@ -25,4 +25,29 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log(`Você está apreciando: "${title}" de ${artist}.`);
         });
     });
+
+    //Pega o Logo da pagina e adiciona um evento de clique para rolar suavemente para o topo
+    document.getElementById('Logo').addEventListener('click', function(elemento) {
+    // Impede o salto instantâneo padrão do link quando clicado e tem o href definido como -> '#'
+    elemento.preventDefault(); 
+    
+    // Faz a janela rolar para a posição (0,0) que é o topo, de forma suave
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  //Pega o Botão de exposição da pagina e adiciona um evento que leva a tela para o ponto especifico que começa as exposições
+    document.getElementById('Expor').addEventListener('click', function(elemento) {
+    // Impede o salto instantâneo padrão do link quando clicado e tem o href definido como -> '#'
+    elemento.preventDefault(); 
+    
+    // Faz a janela rolar para a posição (0,0) que é o topo, de forma suave
+    window.scrollTo({
+      top: 100,
+      behavior: 'smooth'
+    });
+  });
+
 });
