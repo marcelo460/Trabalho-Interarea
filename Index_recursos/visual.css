@@ -47,6 +47,8 @@ body {
     font-size: 1.3rem; /* Mantido o tamanho do texto original */
     font-weight: bold;
     letter-spacing: 1px;
+    text-decoration: none;
+    cursor: hand;
 }
 
 /* Links de navegação na direita */
@@ -57,19 +59,26 @@ body {
 }
 
 .nav-links a {
-    padding: 10px;
+    padding: 10px 15px; /* Ajustei um pouco o padding lateral para o fundo não colar no texto */
     color: #a0a0a0;
     text-decoration: none;
-    font-size: 0.95rem; /* Mantido o tamanho do texto original */
+    font-size: 0.95rem; 
     font-family: sans-serif;
-    transition: color 0.3s ease;
+    display: inline-block; /* Necessário para que o transform (scale) funcione perfeitamente */
+    
+    /* VALOR PADRÃO: Defina as propriedades iniciais para a transição funcionar */
+    background-color: rgba(74, 67, 48, 0); /* Começa transparente */
+    border-radius: 10vw;
+    
+    /* TRANSIÇÃO: Diz ao navegador para suavizar todas as mudanças em 0.3 segundos */
+    transition: color 0.3s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
 .nav-links a:hover {
     color: #d4af37;
     background-color: #4a4330;
-    border-radius: 10vw;
-    font-size: 1.2rem;
+    /* Em vez de mudar font-size, usamos o scale para o efeito visual de crescimento */
+    transform: scale(1.15); 
 }
 
 /* ==========================================================================
