@@ -1,129 +1,189 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #1a1a1a; /* Tom escuro para dar foco às imagens, como um museu moderno */
+    background-color: #1a1a1a; 
     color: #e5e5e5;
-    font-family: 'Georgia', 'Times New Roman', serif; /* Fonte serifada para um ar mais clássico */
-    padding: 40px 20px;
+    font-family: 'Georgia', 'Times New Roman', serif; 
+    /* Distância do topo para não sumir sob a hotbar e respiros laterais em % */
+    padding: 8% 2% 4% 2%; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Cabeçalho */
+/* ==========================================================================
+   HOTBAR (Barra de Navegação Superior)
+   ========================================================================== */
+.hotbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    border-radius: 0%; /* Hotbar total não costuma ter borda arredondada nas pontas */
+    background-color: rgba(26, 26, 26, 0.95); 
+    backdrop-filter: blur(5px); 
+    border-bottom: 1px solid #333;
+    z-index: 1000; 
+    padding: 1.2% 0%; /* Espaçamento interno vertical em % */
+}
+
+.nav-container {
+    max-width: 100%; 
+    width: 90%; /* Ocupa 90% da largura da tela */
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Alinha o texto verticalmente no centro da barra */
+    padding: 0% 2%; /* Distância interna das bordas em % */
+}
+
+/* Nome no cantinho esquerdo */
+.nav-logo {
+    color: #d4af37;
+    font-size: 1.3rem; /* Mantido o tamanho do texto original */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Links de navegação na direita */
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-links a {
+    padding: 10px;
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 0.95rem; /* Mantido o tamanho do texto original */
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+    background-color: #4a4330;
+    border-radius: 10vw;
+    font-size: 1.2rem;
+}
+
+/* ==========================================================================
+   Cabeçalho
+   ========================================================================== */
 .cabecalho {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 4%; /* Distância para a galeria abaixo em % */
+    background-color: #2a261c; 
+    padding: 3.5%; /* Espaço interno do bloco em % */
+    border-radius: 8px;
+    border: 1px solid #4a4330;
+    max-width: 100%;
+    width: 70%; /* Largura do banner proporcional à tela */
 }
 
 .cabecalho h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem; /* Mantido o tamanho do texto original */
     font-weight: 300;
-    color: #d4af37; /* Tom dourado elegante */
-    margin-bottom: 10px;
+    color: #d4af37; 
+    margin-bottom: 1.5%; /* Distância entre título e subtítulo */
 }
 
 .cabecalho p {
     font-style: italic;
-    color: #a0a0a0;
+    color: #c5c5c5;
 }
 
 /* ==========================================================================
-   Grid da Galeria onde coloca os espaçamentos de itens e etc...
+   Grid da Galeria
    ========================================================================== */
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    max-width: 1200px;
-    width: 100%;
+    gap: 5%; /* Espaçamento de distância entre as molduras em % */
+    max-width: 100%;
+    width: 90%;
     justify-items: center;
 }
 
 /* ==========================================================================
-   Container da Obra (Moldura + Texto)
+   Container da Obra (Card)
    ========================================================================== */
 .card-img {
     background-color: #222;
-    padding: 20px;
+    padding: 5%; /* Espaçamento interno em % */
     border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade na parede */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 100%;
-    max-width: 360px;
+    width: 50%;
+    max-width: 50%; 
 }
 
-/* Efeito de iluminação/foco ao passar o mouse */
 .card-img:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(212, 175, 55, 0.2); /* Sombra dourada sutil */
+    transform: translateY(-2%); /* Escala de subida do card em % */
+    box-shadow: 0px 15px 35px rgba(212, 175, 55, 0.2); 
 }
 
 /* A Moldura do Quadro */
 .moldura {
     background-color: #111;
-    padding: 15px; /* Espaço que simula o "Passepartout" (borda interna branca/preta) */
-    border: 8px solid #0a0a0a; /* A moldura externa de madeira escura */
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+    padding: 4%; /* Espaço do Passepartout em % */
+    border: 8px solid #0a0a0a; 
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.8);
     overflow: hidden;
-    height: 350px; /* Altura fixa para manter o padrão visual */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Mantém a moldura perfeitamente quadrada e responsiva */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* A Imagem da Obra */
 .art-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+    object-fit: cover; 
     transition: transform 0.5s ease;
     cursor: pointer;
 }
 
-/* Efeito sutil de zoom na imagem ao passar o mouse */
-.art-card:hover .art-image {
-    transform: scale(1.03);
+.card-img:hover .art-image {
+    transform: scale(1.04); 
 }
 
 /* ==========================================================================
-   Formatação do Texto (Etiqueta de Identificação)
+   Formatação do Texto (Informações)
    ========================================================================== */
 .informacoes {
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 1px solid #333; /* Linha divisória fina */
+    margin-top: 5%; /* Distância do texto para a moldura acima */
+    padding-top: 4%; /* Distância interna da linha divisória */
+    border-top: 1px solid #333; 
     text-align: center;
 }
 
-/* Título da Obra */
 .art-name {
-    font-size: 1.25rem;
+    font-size: 1.25rem; /* Mantido o tamanho do texto original */
     font-weight: 600;
     color: #ffffff;
-    margin-bottom: 5px;
+    margin-bottom: 2%; /* Distância entre o título e o artista */
 }
 
-/* Nome do Artista e Ano */
 .artista {
-    font-size: 0.95rem;
-    color: #d4af37; /* Destaque em dourado para o artista */
-    margin-bottom: 4px;
+    font-size: 0.95rem; /* Mantido o tamanho do texto original */
+    color: #d4af37; 
+    margin-bottom: 1.5%; /* Distância entre o artista e a localização */
 }
 
-/* Técnica utilizada */
 .localizacao {
-    font-size: 0.85rem;
+    font-size: 0.85rem; /* Mantido o tamanho do texto original */
     color: #888;
     text-transform: uppercase;
-    letter-spacing: 1px; /* Espaçamento entre letras para parecer técnico */
+    letter-spacing: 1px; 
 }
 
-/* Classe dinâmica que será aplicada pelo JS */
-.art-card.highlighted {
+.card-img.highlighted {
     outline: 2px solid #d4af37;
 }
