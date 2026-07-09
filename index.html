@@ -1,87 +1,80 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-BR">
-
 <head>
-    <!-- Configurações da página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<<<<<<< HEAD
     <!-- Definindo os arquivos que vai usar (Centralizados na sua pasta de recursos) -->
     <link rel="stylesheet" href="front-end/Index_recursos/visual.css">
     <script src="front-end/Index_recursos/java.js" defer></script>
-=======
-    <!-- Arquivos -->
-    <link rel="stylesheet" href="front-end/Index_recursos/visual.css">
-    <script src="front-end/Index_recursos/java.js" defer></script>
->>>>>>> 0ca5f6a3f43e81034478f1cd97530841ee6b4aac
 
-    <title>Museu Digital de Camaçari</title>
+    
+>>>>>>> 7f16baccd430b8cfd297a5689492209dae5f8f87
+
+    <!-- Titulo da pagina -->
+    <title>Museu de Camaçari</title>
 </head>
-
 <body>
 
-    <!-- ================= HOTBAR ================= -->
+    <!-- HOTBAR: Barra de Navegação Superior Fixa -->
     <nav class="hotbar">
         <div class="nav-container">
-
-            <!-- Logo -->
-            <a href="index.html" id="Logo" class="nav-logo">
-                Museu de Camaçari
-            </a>
-
-            <!-- Menu -->
+            <!-- Nome do museu no cantinho esquerdo -->
+            <a href="#" id="Logo" class="nav-logo">Museu de Camaçari</a>
+            <!-- Opções para navegar em diferentes partes do site -->
             <ul class="nav-links">
-<<<<<<< HEAD
                 <li><a href="https://marcelo460.github.io/Trabalho-Interarea/">Início</a></li>
                 <li><a href="#galeria" id="Expor" >Exposições</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#mais">Mais</a></li>
-=======
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#exposicao">Exposições</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="mais.html">Mais</a></li>
->>>>>>> 0ca5f6a3f43e81034478f1cd97530841ee6b4aac
+                <li><a href="#contato">Mais</a></li>
             </ul>
-
         </div>
     </nav>
 
-    <!-- ================= CABEÇALHO ================= -->
-    <header id="inicio" class="cabecalho">
+    <!-- Cabeçalho do Museu (Ajustado para não sumir embaixo da hotbar) -->
+    <div class="cabecalho">
         <h1>Museu Digital de Camaçari</h1>
         <p>Compreenda o mundo ao seu redor com uma perspectiva diferente.</p>
-    </header>
+    </div>
 
-    <!-- ================= EXPOSIÇÃO ================= -->
-    <section id="exposicao" class="cabecalho">
-        <h1>Exposição</h1>
-        <p>Aprecie Camaçari através de nossas exposições abaixo.</p>
-    </section>
-
-    <!-- ================= GALERIA ================= -->
-    <main id="galeria" class="galeria">
-
-        <!-- Card 1 -->
-        <article class="card-img">
-            ...
-        </article>
-
-        <!-- Card 2 -->
-        <article class="card-img">
-            ...
-        </article>
-
-        <!-- Card 3 -->
-        <article class="card-img">
-            ...
-        </article>
-
-        <!-- Demais cards -->
-
+    <main class="paragrafo">
+        <p></p>
     </main>
 
-</body>
+    <!-- Titulo da area de exposição do museu -->
+    <div class="cabecalho">
+        <h1>Exposição</h1>
+        <p>Aprecie Camaçari através de nossas exposições abaixo: </p>
+    </div>
 
+    <!-- Container Principal - Tem as telas -->
+    <main class="galeria">
+
+        <!-- Flores -->
+        <article class="card-img">
+            <!-- Moldura e Imagem -->
+            <div class="moldura">
+                <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=600"
+                alt="Imagem teste" class="art-image"
+                decoding="async"
+                fetchpriority="low"
+                loading="lazy" >
+                <!--Loadyng diz como será o carregamento e o lazy diz que so quando aparecer na tela
+                decoding tenta pegar a imagem em segundo plano pq ele carrega mais não na sua cpu
+                fetchpriority diz a prioridade/urgencia do item-->
+                
+            </div>
+            <!-- Identificação -->
+            <div class="informacoes">
+                <h2 class="art-name">Flores da Primavera</h2>
+                <p class="artista">Desconhecido, c. 2021</p>
+                <p class="localizacao">Casa de Ginaldo</p>
+            </div>
+        </article>
+        
+    </main>
+
+<script src="front-end/Index_recursos/java.js" defer>
+</script>
+</body>
 </html>
