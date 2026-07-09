@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#exposicao {
+    scroll-margin-top: 100px; /* ajuste conforme a altura da hotbar */
+}
+
 body {
     background-color: #1a1a1a; 
     color: #e5e5e5;

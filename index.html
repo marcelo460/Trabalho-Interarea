@@ -1,157 +1,88 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+    <!-- Configurações da página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< HEAD
     <!-- Definindo os arquivos que vai usar (Centralizados na sua pasta de recursos) -->
     <link rel="stylesheet" href="front-end/Index_recursos/visual.css">
     <script src="front-end/Index_recursos/java.js" defer></script>
+=======
+    <!-- Arquivos -->
+    <link rel="stylesheet" href="Index_recursos/visual.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Index_recursos/java.js" defer></script>
+>>>>>>> 0ca5f6a3f43e81034478f1cd97530841ee6b4aac
 
-    <!-- Titulo da pagina -->
-    <title>Galeria do Museu Virtual</title>
+    <title>Museu Digital de Camaçari</title>
 </head>
+
 <body>
 
-    <!-- HOTBAR: Barra de Navegação Superior Fixa -->
+    <!-- ================= HOTBAR ================= -->
     <nav class="hotbar">
         <div class="nav-container">
-            <!-- Nome do museu no cantinho esquerdo -->
-            <a href="#" id="Logo" class="nav-logo">Museu de Camaçari</a>
-            <!-- Opções para navegar em diferentes partes do site -->
+
+            <!-- Logo -->
+            <a href="index.html" id="Logo" class="nav-logo">
+                Museu de Camaçari
+            </a>
+
+            <!-- Menu -->
             <ul class="nav-links">
+<<<<<<< HEAD
                 <li><a href="https://marcelo460.github.io/Trabalho-Interarea/">Início</a></li>
                 <li><a href="#galeria" id="Expor" >Exposições</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#mais">Mais</a></li>
+=======
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#exposicao">Exposições</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="mais.html">Mais</a></li>
+>>>>>>> 0ca5f6a3f43e81034478f1cd97530841ee6b4aac
             </ul>
+
         </div>
     </nav>
 
-    <!-- Cabeçalho do Museu (Ajustado para não sumir embaixo da hotbar) -->
-    <div id="inicio" class="cabecalho">
+    <!-- ================= CABEÇALHO ================= -->
+    <header id="inicio" class="cabecalho">
         <h1>Museu Digital de Camaçari</h1>
         <p>Compreenda o mundo ao seu redor com uma perspectiva diferente.</p>
-    </div>
+    </header>
 
-    <!-- Titulo da area de exposição do museu -->
-    <div id="exposicao" class="cabecalho">
+    <!-- ================= EXPOSIÇÃO ================= -->
+    <section id="exposicao" class="cabecalho">
         <h1>Exposição</h1>
-        <p>Aprecie Camaçari através de nossas exposições abaixo: </p>
-    </div>
+        <p>Aprecie Camaçari através de nossas exposições abaixo.</p>
+    </section>
 
-    <!-- Container Principal - Tem as telas -->
+    <!-- ================= GALERIA ================= -->
     <main id="galeria" class="galeria">
 
-        <!-- Flores -->
+        <!-- Card 1 -->
         <article class="card-img">
-            <!-- Moldura e Imagem -->
-            <div class="moldura">
-                <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=600"
-                 alt="Imagem teste" class="art-image">
-            </div>
-            <!-- Identificação -->
-            <div class="informacoes">
-                <h2 class="art-name">Flores da Primavera</h2>
-                <p class="artista">Desconhecido, c. 2021</p>
-                <p class="localizacao">Casa de Ginaldo</p>
-            </div>
+            ...
         </article>
 
-        <!-- Mona -->
+        <!-- Card 2 -->
         <article class="card-img">
-            <!-- Moldura e Imagem -->
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/500px-Mona_Lisa.jpg"
-                 alt="Imagem teste2" class="art-image">
-            </div>
-            <!-- Identificação -->
-            <div class="informacoes">
-                <h2 class="art-name">Mona Lisa</h2>
-                <p class="artista">Foi Eu</p>
-                <p class="localizacao">Museu do Louvre, Paris, França</p>
-            </div>
+            ...
         </article>
 
-        <!-- Grito -->
+        <!-- Card 3 -->
         <article class="card-img">
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard-Munch-The-Scream.jpg"
-                 alt="O Grito" class="art-image">
-            </div>
-            <div class="informacoes">
-                <h2 class="art-name">The real Fah</h2>
-                <p class="artista">Lil Bro</p>
-                <p class="localizacao">É na Noruega, 🫩</p>
-            </div>
+            ...
         </article>
 
-        <!-- Mule do brinco -->
-        <article class="card-img">
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg"
-                 alt="Moça com o Brinco de Pérola" class="art-image">
-            </div>
-            <div class="informacoes">
-                <h2 class="art-name">Moça com o Brinco de Pérola</h2>
-                <p class="artista">Johannes Vermeer</p>
-                <p class="localizacao">Não sei</p>
-            </div>
-        </article>
-
-        <!-- China safado -->
-        <article class="card-img">
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg"
-                 alt="A Grande Onda de Kanagawa" class="art-image">
-            </div>
-            <div class="informacoes">
-                <h2 class="art-name">A Grande Onda de Kanagawa</h2>
-                <p class="artista">Xupalú Minhia vala</p>
-                <p class="localizacao">Museu Britânico, Londres, Reino Unido</p>
-            </div>
-        </article>
-
-        <!-- Sol -->
-        <article class="card-img">
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg"
-                 alt="Impressão, Nascer do Sol" class="art-image">
-            </div>
-            <div class="informacoes">
-                <h2 class="art-name">Impressão, Nascer do Sol</h2>
-                <p class="artista">Claudio Moneuty</p>
-                <p class="localizacao">Museu Marmottan Monet, Paris, França</p>
-            </div>
-        </article>
-
-        <!-- O toque -->
-        <article class="card-img">
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
-                 alt="A Criação de Adão" class="art-image">
-            </div>
-            <div class="informacoes">
-                <h2 class="art-name">A Criação de Adão</h2>
-                <p class="artista">Michelangelo</p>
-                <p class="localizacao">Parede daqui de casa</p>
-            </div>
-        </article>
-
-        <!-- Arte conteporanea antiga, oh mds -->
-        <article class="card-img">
-            <div class="moldura">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
-                 alt="O Beijo" class="art-image">
-            </div>
-            <div class="informacoes">
-                <h2 class="art-name">Beijoca</h2>
-                <p class="artista">Gustav Klimt</p>
-                <p class="localizacao">Galeria Belvedere, Viena, Áustria</p>
-            </div>
-        </article>
+        <!-- Demais cards -->
 
     </main>
 
 </body>
+
 </html>
