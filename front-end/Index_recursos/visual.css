@@ -94,7 +94,7 @@ body {
    ========================================================================== */
 .cabecalho {
     text-align: center;
-    margin-bottom: 4%; /* Distância para a galeria abaixo em % */
+    margin-bottom: 2%; /* Distância para a galeria abaixo em % */
     background-color: #2a261c; 
     padding: 3.5%; /* Espaço interno do bloco em % */
     border-radius: 8px;
@@ -128,12 +128,15 @@ body {
 }
 
 .paragrafo {
-    background-color: #ebdfc2;
+    text-align: center;
+    margin-bottom: 10%;
+    background-color: #d3a3322a;
+    border-radius: 8px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 5%; /* Espaçamento de distância entre as molduras em % */
-    max-width: 100%;
+    padding: 5%;
+    gap: 3%;
     width: 90%;
+    height: 100%;
     justify-items: center;
 }
 
@@ -142,31 +145,43 @@ body {
    ========================================================================== */
 .card-img {
     background-color: #222;
-    padding: 5%; /* Espaçamento interno em % */
+    padding: 4%; 
     border-radius: 4px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 50%;
-    max-width: 100%; 
+    
+    width: 35vw;        /* Nem px nem % é vw para poder calcular em tempo real a bosta do tamanho da tela */
+    min-width: 280px;   /* Quando a tela diminuir muito (celular) */
+    max-width: 500px;   /* Em monitores gigantescos, projetor */
+    
+    margin: 20px auto;  /* Centraliza o card na tela ou tenta */
+
+    z-index: 1;
 }
 
 .card-img:hover {
-    transform: translateY(-2%); /* Escala de subida do card em % */
+    transform: translateX(4%); 
     box-shadow: 0px 15px 35px rgba(212, 175, 55, 0.2); 
 }
 
 /* A Moldura do Quadro */
 .moldura {
     background-color: #222;
-    padding: 4%; /* Espaço do Passepartout em % */
+    padding: 4%; 
     border: 8px solid #0a0a0a; 
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.8);
     overflow: hidden;
-    height: 75%;
-    aspect-ratio: 1 / 1; /* Mantém a moldura perfeitamente quadrada e responsiva */
+    
+    /* Define o tamanho da moldura */
+    width: 100%;   /* Ocupa toda a largura que card definiu */   
+    height: auto;   /* Vai no automatico mesmo */        
+    aspect-ratio: 1 / 1;  /* Garante o quadrado perfeito baseado na largura, 'não entendi direito' */
+    
     display: flex;
     align-items: center;
     justify-content: center;
+
+    z-index: 2; /* Garante que a moldura fique acima do highlight */
 }
 
 .art-image {
@@ -185,10 +200,23 @@ body {
    Formatação do Texto (Informações)
    ========================================================================== */
 .informacoes {
-    margin-top: 5%; /* Distância do texto para a moldura acima */
-    padding-top: 4%; /* Distância interna da linha divisória */
+    background-color: rgba(226, 228, 140, 0.226);
+    margin-left: -40%;;
+    margin-top: -40%; /* Distância do texto para a moldura acima */
+    padding-top: 1%; /* Distância interna da linha divisória */
     border-top: 1px solid #333; 
-    text-align: center;
+    text-align: left;
+    
+    opacity: 0;             
+    transform: translateX(4%); /* Empurra o texto levemente para baixo */
+    
+    /* faz transicionar suavemente por 0.4 sec */
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.card-img:hover .informacoes {
+    opacity: 1;             
+    transform: translateY(3.7%); /* Volta para a posição original */
 }
 
 .art-name {
@@ -200,17 +228,18 @@ body {
 
 .artista {
     font-size: 0.95rem; /* Mantido o tamanho do texto original */
-    color: #d4af37; 
+    color: #d8ab16ec; 
     margin-bottom: 1.5%; /* Distância entre o artista e a localização */
 }
 
 .localizacao {
     font-size: 0.85rem; /* Mantido o tamanho do texto original */
-    color: #888;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px; 
 }
 
 .card-img.highlighted {
-    outline: 2px solid #d4af37;
+    outline: 4px solid #d4af37;
+    transform: scale(1.03);
 }

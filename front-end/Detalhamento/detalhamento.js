@@ -1,9 +1,9 @@
 // 1. Nosso banco de dados fictício focado em Arte Urbana
 const bancoDeDadosObras = {
-    "grafite-bansky": {
-        titulo: "O Lançador de Flores",
-        artista: "Banksy",
-        localizacao: "Jerusalém, Palestina",
+    "1": {
+        titulo: "Flores da Primavera",
+        artista: "Desconhecido, c. 2021",
+        localizacao: "Casa de Ginaldo",
         contexto: "Pintada em 2003 em um muro na cidade de Jerusalém, esta obra é uma das mais icônicas do artista de rua britânico Banksy. A imagem mostra um homem com o rosto coberto, típica vestimenta de manifestantes urbanos, mas em vez de uma pedra ou coquetel molotov, ele está prestes a lançar um buquê de flores coloridas. A obra traz uma forte mensagem de paz e ativismo social utilizando o espaço público.",
         analise: "Visualmente, Banksy utiliza a técnica do estêncil (stencil) em preto e branco para a figura humana, criando um alto contraste agressivo que simula a fotografia de guerrilha. O único ponto de cor viva são as flores. O impacto urbano reside em ressignificar um ato de violência comum em zonas de conflito urbano em um manifesto poético e pacífico de resistência artística.",
         midias: [
@@ -15,21 +15,6 @@ const bancoDeDadosObras = {
             { tipo: 'video', url: 'https://www.w3schools.com/html/movie.mp4', classe: '' } // Segundo vídeo básico
         ]
     },
-    "beco-do-batman": {
-        titulo: "Muralismo Coletivo",
-        artista: "Vários Artistas",
-        localizacao: "Beco do Batman, São Paulo, Brasil",
-        contexto: "O Beco do Batman é uma galeria de grafite a céu aberto localizada na Vila Madalena, em São Paulo. Teve início na década de 1980, quando um desenho do personagem de quadrinhos Batman apareceu em um dos muros. A partir dali, estudantes de artes e grafiteiros começaram a preencher as paredes cinzas com desenhos psicodélicos e manifestos políticos.",
-        analise: "A dinâmica aqui é o constante movimento. Diferente de museus tradicionais, as artes do beco são temporárias, sendo cobertas por novas pinturas tempos depois. O uso agressivo de cores saturadas reflete o movimento do muralismo brasileiro contemporâneo, transformando a degradação urbana em polo cultural e turístico.",
-        midias: [
-            { tipo: 'img', url: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b', classe: 'grande-horizontal' },
-            { tipo: 'video', url: 'https://www.w3schools.com/html/mov_bbb.mp4', classe: '' },
-            { tipo: 'img', url: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8', classe: 'bloco-destaque' },
-            { tipo: 'img', url: 'https://images.unsplash.com/photo-1561214115-f2f134cc4912', classe: '' },
-            { tipo: 'video', url: 'https://www.w3schools.com/html/movie.mp4', classe: 'grande-vertical' },
-            { tipo: 'img', url: 'https://images.unsplash.com/photo-1549887534-1541e9326642', classe: '' }
-        ]
-    }
 };
 
 // 2. Lógica para capturar o ID que veio na URL e montar a tela
