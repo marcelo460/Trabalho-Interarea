@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -94,13 +94,13 @@ body {
    ========================================================================== */
 .cabecalho {
     text-align: center;
-    margin-bottom: 2%; /* Distância para a galeria abaixo em % */
+    margin-bottom: 4%; /* Distância para a galeria abaixo em % */
     background-color: #2a261c; 
     padding: 3.5%; /* Espaço interno do bloco em % */
     border-radius: 8px;
     border: 1px solid #4a4330;
     max-width: 100%;
-    width: 70%; /* Largura do banner proporcional à tela */
+    width: 90%; /* Largura do banner proporcional à tela */
 }
 
 .cabecalho h1 {
@@ -111,6 +111,29 @@ body {
 }
 
 .cabecalho p {
+    font-style: italic;
+    color: #c5c5c5;
+}
+
+.cabecalho1 {
+    text-align: center;
+    margin-bottom: 10%; /* Distância para a galeria abaixo em % */
+    background-color: #2a261c; 
+    padding: 3.5%; /* Espaço interno do bloco em % */
+    border-radius: 8px;
+    border: 1px solid #4a4330;
+    max-width: 100%;
+    width: 90%; /* Largura do banner proporcional à tela */
+}
+
+.cabecalho1 h1 {
+    font-size: 2.5rem; /* Mantido o tamanho do texto original */
+    font-weight: 300;
+    color: #d4af37; 
+    margin-bottom: 1.5%; /* Distância entre título e subtítulo */
+}
+
+.cabecalho1 p {
     font-style: italic;
     color: #c5c5c5;
 }
@@ -129,13 +152,13 @@ body {
 
 .paragrafo {
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 4%;
     background-color: #d3a3322a;
     border-radius: 8px;
     display: grid;
     padding: 5%;
     gap: 3%;
-    width: 90%;
+    width: 60%;
     height: 100%;
     justify-items: center;
 }
