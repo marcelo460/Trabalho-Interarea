@@ -1,0 +1,44 @@
+{
+  "obras": {
+    "1":{ 
+    "titulo": "Flores da Primavera",
+    "artista": "Desconhecido, c. 2021",
+    "localizacao": "Casa de Ginaldo",
+    "contexto": "Pintada em 2003 em um muro na cidade de Jerusalém, esta obra é uma das mais icônicas do artista de rua britânico Banksy. A imagem mostra um homem com o rosto coberto, típica vestimenta de manifestantes urbanos, mas em vez de uma pedra ou coquetel molotov, ele está prestes a lançar um buquê de flores coloridas. A obra traz uma forte mensagem de paz e ativismo social utilizando o espaço público.",
+    "analise": "Visualmente, Banksy utiliza a técnica do estêncil (stencil) em preto e branco para a figura humana, criando um alto contraste agressivo que simula a fotografia de guerrilha. O único ponto de cor viva são as flores. O impacto urbano reside em ressignificar um ato de violência comum em zonas de conflito urbano em um manifesto poético e pacífico de resistência artística.",
+    "midias": [
+      {
+        "tipo": "img",
+        "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119",
+        "classe": "bloco-destaque"
+      },
+      {
+        "tipo": "img",
+        "url": "https://images.unsplash.com/photo-1541701494587-cb58502866ab",
+        "classe": ""
+      },
+      {
+        "tipo": "video",
+        "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "classe": "grande-vertical"
+      },
+      {
+        "tipo": "img",
+        "url": "https://images.unsplash.com/photo-1533158326339-7f3cf2404354",
+        "classe": "grande-horizontal"
+      },
+      {
+        "tipo": "img",
+        "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f",
+        "classe": ""
+      },
+      {
+        "tipo": "video",
+        "url": "https://www.w3schools.com/html/movie.mp4",
+        "classe": ""
+      }
+    ]
+  }
+}
+  
+}
