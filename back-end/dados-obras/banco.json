@@ -1,6 +1,5 @@
 {
-  "obras": {
-    "1":{ 
+  "1": {
     "titulo": "Flores da Primavera",
     "artista": "Desconhecido, c. 2021",
     "localizacao": "Casa de Ginaldo",
@@ -38,7 +37,30 @@
         "classe": ""
       }
     ]
+  },
+
+  "2": {
+    "titulo": "O Beijo",
+    "artista": "Gustav Klimt, 1907-1908",
+    "localizacao": "Galeria Belvedere, Viena, Áustria",
+    "contexto": "Pintura a óleo sobre tela, 'O Beijo' é uma das obras mais famosas do pintor austríaco Gustav Klimt. Criada durante o período de ouro de sua carreira, a obra representa um casal em um abraço íntimo e apaixonado, envolto em ricos padrões decorativos e dourados. A obra é um ícone do movimento Art Nouveau e simboliza o amor e a sensualidade.",
+    "analise": "Klimt utiliza uma paleta de cores quentes e metálicas, com predominância do dourado, para criar uma sensação de luxo e opulência. A composição é marcada por formas geométricas e padrões ornamentais que contrastam com a suavidade das figuras humanas. A obra transmite uma sensação de intimidade e conexão emocional entre os amantes.",
+    "midias": [
+      {
+        "tipo": "img",
+        "url": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde",
+        "classe": "bloco-destaque"
+      },
+      {
+        "tipo": "img",
+        "url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+        "classe": ""
+      },
+      {
+        "tipo": "video",
+        "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "classe": ""
+      }
+    ]
   }
-}
-  
 }
