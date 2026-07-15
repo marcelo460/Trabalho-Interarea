@@ -27,7 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-
+         const buttonCabecalho = document.getElementById("Logo");
+    const paragrafo = document.getElementById("parag");
+    
+    buttonCabecalho.addEventListener("click", () => {
+    paragrafo.classList.toggle("active");
+});
+    
     //  Codigo do botão na Logo para rolar pra cima
         const logo = document.querySelector('.nav-logo');
     if (logo) {
