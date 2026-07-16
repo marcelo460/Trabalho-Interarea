@@ -20,19 +20,25 @@ body {
 /* HOTBAR */
 .hotbar {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 100%;
+    border-radius: 2%;
     background-color: rgba(26, 26, 26, 0.95); 
     backdrop-filter: blur(5px); 
     border-bottom: 1px solid #333;
     z-index: 1000; 
-    padding: 15px 0;
+    padding: 1.2% 0%;
 }
 
 .nav-container {
-    width: 90%;
-    margin: 0 auto;
+    max-width: 100%; 
+    width: 90%; /* Ocupa 90% da largura da tela */
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Alinha o texto verticalmente no centro da barra */
+    padding: 0% 2%;
 }
 
 .nav-logo {
@@ -47,11 +53,9 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
-    
 }
 
 .nav-links a {
-
     padding: 10px 15px; /* Ajustei um pouco o padding lateral para o fundo não colar no texto */
     color: #a0a0a0;
     text-decoration: none;

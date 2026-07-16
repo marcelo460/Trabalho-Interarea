@@ -1,113 +1,102 @@
-/**
- * =========================================================================
- * FLUXO PRINCIPAL DA PÁGINA DE DETALHAMENTO
- * =========================================================================
- * Este evento garante que o script só rode depois que todo o HTML da página
- * de detalhamento estiver pronto e carregado no navegador.
- */
+//Faz uma verificação para ver se a pagina carregou
 window.addEventListener('DOMContentLoaded', iniciarPaginaDetalhamento);
 
 function iniciarPaginaDetalhamento() {
     
-    // [PARTE 1]: Recebe e isola o ID que foi enviado pela página anterior através da URL
+    //Recebe depois isola o ID que foi enviado pela página anterior (Pegando pela URL)
     const parametrosURL = new URLSearchParams(window.location.search);
-    const idObraBuscada = parametrosURL.get('id');
+    const identificador = parametrosURL.get('id');
 
-    // Validação de segurança: se não houver ID na URL, exibe a tela de erro imediatamente
-    if (!idObraBuscada) {
-        console.error("Erro: Nenhum ID de obra foi encontrado nos parâmetros da URL.");
+    //Se não tiver esse ID ele só da erro mesmo. Chamando a função que está lá no final 
+    if (!identificador) {
+        console.error("Erro: Nenhum IDENTIFICADOR de obra foi encontrado nos parâmetros da sua URL.");
         exibirErro();
         return; 
     }
 
-    // [PARTE 2]: Com o ID em mãos, chama a função para buscar as informações no banco de dados
-    buscarDadosNoBanco(idObraBuscada);
+    // Ativa a função que vai pegar as informações do banco de dados.
+    buscarDadosNoBanco(identificador);
 }
 
-/**
- * =========================================================================
- * PARTE 2: BUSCA NO BANCO DE DADOS (FETCH)
- * =========================================================================
- * Faz a requisição para o arquivo JSON e localiza a obra usando o ID como chave.
- */
-function buscarDadosNoBanco(idAlvo) {
-    // Faz o download silencioso do arquivo JSON do seu back-end
+//Usa fetch (muito dificil de entender, igual css) para conectar no JSON do back-end
+function buscarDadosNoBanco(ID) {
+    //Ao que tudo indica: Instala o banco de dados (?)
     fetch("../../back-end/dados-obras/banco.json")
         .then(resposta => {
-            // Verifica se o arquivo foi encontrado com sucesso
+            // Verifica se o arquivo foi encontrado e se ('!' == diferente) se não da erro
             if (!resposta.ok) {
-                throw new Error("Não foi possível carregar o arquivo banco.json.");
+                //Mensagem de erro...
+                throw new Error("Ocorreu um erro ao carregar as informações desta obra.");
             }
-            return resposta.json(); // Converte o texto puro do JSON em um objeto JavaScript
+            //Converte o que baixou (? O arquivo) e transforma em json (De novo??)
+            return resposta.json();
         })
-        .then(dicionarioObras => { // MUDANÇA: alterado 'dados' para 'dicionarioObras' para combinar com a nova estrutura direta do JSON
+        .then(dicionarioObras => { // Aqui, dicionarioObras é o objeto que contém todas as obras do banco de dados
             
-            // Como seu JSON agora é direto, buscamos a obra usando o ID como chave (ex: dicionarioObras["1"])
-            const obraLocalizada = dicionarioObras[idAlvo];
+            // Acha o nome de identificação que eu dei
+            const dados_recebidos = dicionarioObras[ID];
 
-            if (obraLocalizada) {
+            if (dados_recebidos) {
                 // Se a obra existir no arquivo, chama a função para preencher a tela
-                renderizarDadosNoHTML(obraLocalizada);
+                renderizarDadosNoHTML(dados_recebidos);
             } else {
                 // Se o ID não existir dentro do banco de dados
-                console.warn(`Aviso: A obra com ID "${idAlvo}" não foi encontrada no banco de dados.`);
+                console.warn(`Rapaz... Eu olhei aqui e não achei não, se você achar me avise viu? Esse seu 'I' - 'D' ta errado, só pode coisinho.`);
                 exibirErro();
             }
         })
+        //Se algo der eero ativa esse gatilho automaticamente
         .catch(erro => {
-            // Trata qualquer erro que aconteça durante a requisição ou leitura do arquivo
-            console.error("Erro crítico na busca dos dados:", erro);
+            // Entrega esses faoteres para algum erro esconhecido ou critico
+            console.error("Erro:", erro, "\nNão terá conexão com o banco de dados.");
             exibirErro();
         });
 }
 
-/**
- * =========================================================================
- * PARTE 3: TRANSFORMAÇÃO E PREENCHIMENTO DO HTML (RENDERIZAÇÃO)
- * =========================================================================
- * Pega os dados que vieram do JSON e os injeta nos elementos HTML correspondentes.
- */
-function renderizarDadosNoHTML(dadosDaObra) {
-    // Insere os textos principais da obra nos seus respectivos IDs do HTML
-    document.getElementById('titulo-obra').innerText = dadosDaObra.titulo;
-    document.getElementById('artista-obra').innerText = dadosDaObra.artista;
-    document.getElementById('localizacao-obra').innerText = dadosDaObra.localizacao;
-    document.getElementById('texto-contexto').innerText = dadosDaObra.contexto;
-    document.getElementById('texto-analise').innerText = dadosDaObra.analise;
+//Pega todos esses dados recebidos antes e converte meu html
+function renderizarDadosNoHTML(dados_obra) {
+    // Pega as principais informações da obra e coloca no HTML
+    document.getElementById('titulo-obra').innerText = dados_obra.titulo;
+    document.getElementById('artista-obra').innerText = dados_obra.artista;
+    document.getElementById('localizacao-obra').innerText = dados_obra.localizacao;
+    document.getElementById('texto-contexto').innerText = dados_obra.contexto;
+    document.getElementById('texto-analise').innerText = dados_obra.analise;
 
-    // Localiza o container onde o mosaico de mídias será montado
-    const containerMosaico = document.getElementById('mosaico-midias');
-    if (!containerMosaico) return; // Segurança caso a div não exista no HTML
+    // Localiza o container onde o mosaico de mídias
+    const container_mosaico = document.getElementById('mosaico-midias');
+    // Segurança caso a div não exista no HTML
+    if (!container_mosaico) return;
     
-    containerMosaico.innerHTML = ''; // Limpa qualquer conteúdo antigo ou mensagem de "carregando"
+    //Limpa da ultima vez que veio nessa pagina e atualiza o "Carregando..."
+    container_mosaico.innerHTML = '';
 
-    // Verifica se existem mídias cadastradas para esta obra
-    if (dadosDaObra.midias && Array.isArray(dadosDaObra.midias)) {
+    // Verifica se existem mídias cadastradas para esta obra (não entendi como verifica)
+    if (dados_obra.midias && Array.isArray(dados_obra.midias)) {
         
-        // Passa de mídia em mídia para criar os elementos dinamicamente
-        dadosDaObra.midias.forEach(midia => {
-            let tagCriada; // MUDANÇA: alterado de 'elementoMidia' para 'tagCriada' para diferenciar a tag HTML física do objeto 'midia'
+        // Passa de mídia em mídia (forEach) e cria a tag HTML correspondente (img ou video) para cada item
+        dados_obra.midias.forEach(midia => {
+            let tag_criada; 
 
             // Identifica o tipo para criar a tag HTML correta (img ou video)
             if (midia.tipo === 'img') {
-                tagCriada = document.createElement('img');
-                tagCriada.src = midia.url;
-                tagCriada.alt = dadosDaObra.titulo;
+                tag_criada = document.createElement('img');
+                tag_criada.src = midia.url;
+                tag_criada.alt = dados_obra.titulo;
             } else if (midia.tipo === 'video') {
-                tagCriada = document.createElement('video');
-                tagCriada.src = midia.url;
-                tagCriada.controls = true; // Mostra os botões de play, pause e volume
+                tag_criada = document.createElement('video');
+                tag_criada.src = midia.url;
+                tag_criada.controls = true; // Mostra os botões de play, pause e volume
             }
 
             // Se a tag foi gerada com sucesso, aplica as classes e joga na tela
-            if (tagCriada) {
+            if (tag_criada) {
                 // Adiciona a classe de estilização caso ela exista e não esteja vazia no JSON
                 if (midia.classe && midia.classe.trim() !== "") {
-                    tagCriada.className = midia.classe;
+                    tag_criada.className = midia.classe;
                 }
                 
                 // Insere o elemento recém-criado dentro da div do mosaico
-                containerMosaico.appendChild(tagCriada);
+                container_mosaico.appendChild(tag_criada);
             }
         });
     }
