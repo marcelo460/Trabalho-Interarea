@@ -137,10 +137,13 @@ body {
     background-color: #222;
 }
 
-.mosaico-midias img,
-.mosaico-midias videos {
-   transform: scale(1.20);
-   transform: translateX(3%);
+.mosaico-midias img:hover{
+    transform: scale(1.50);
+    transform: translateY(3%);
+} 
+.mosaico-midias video:hover {
+   transform: scale(1.50);
+   transform: translateY(3%);
 }
 
 /* Modificadores do Quebra-Cabeça (tamanhos diferentes) */

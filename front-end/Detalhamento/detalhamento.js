@@ -1,7 +1,7 @@
 //Faz uma verificação para ver se a pagina carregou
-window.addEventListener('DOMContentLoaded', iniciarPaginaDetalhamento);
+window.addEventListener('DOMContentLoaded', iniciar);
 
-function iniciarPaginaDetalhamento() {
+function iniciar() {
     
     //Recebe depois isola o ID que foi enviado pela página anterior (Pegando pela URL)
     const parametrosURL = new URLSearchParams(window.location.search);
@@ -15,13 +15,13 @@ function iniciarPaginaDetalhamento() {
     }
 
     // Ativa a função que vai pegar as informações do banco de dados.
-    buscarDadosNoBanco(identificador);
+    buscar_no_banco_dados(identificador);
 }
 
 //Usa fetch (muito dificil de entender, igual css) para conectar no JSON do back-end
-function buscarDadosNoBanco(ID) {
+function buscar_no_banco_dados(ID) {
     //Ao que tudo indica: Instala o banco de dados (?)
-    fetch("../../back-end/dados-obras/banco.json")
+    fetch("/back-end/dados-obras/banco.json")
         .then(resposta => {
             // Verifica se o arquivo foi encontrado e se ('!' == diferente) se não da erro
             if (!resposta.ok) {
