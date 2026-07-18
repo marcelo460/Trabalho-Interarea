@@ -1,0 +1,96 @@
+{
+  "1": {
+    "titulo": "Amor é Tudo",
+    "artista": "Wal Correia, @Cidade_hostil",
+    "localizacao": "Primeira do Parque; Gleba B; Camaçari, BA",
+    "contexto": "A obra retrata uma pessoa negra sentada em posição de reflexão, cercada por elementos geométricos e tecnológicos, além da frase: 'Cores não são nada, números não são nada, amor é tudo.' A obra busca transmitir uma mensagem de amor e aceitação, destacando a importância do amor em meio às complexidades da vida moderna. A presença de elementos tecnológicos e geométricos sugere uma reflexão sobre a relação entre a humanidade e a tecnologia, enquanto a figura central representa a introspecção e a busca por significado.",
+    "analise": "A pintura incentiva a reflexão sobre o preconceito e a importância de enxergar as pessoas além de sua cor ou de rótulos. Ao destacar o amor e o respeito como valores centrais, a obra promove a inclusão, a valorização da diversidade e o combate à discriminação, contribuindo para uma sociedade mais justa e acolhedora.",
+    "midias": [
+      {
+        "tipo": "img",
+        "url": "../Midias/1/amor-e-tudo.jpg",
+        "classe": "bloco-destaque"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/1/amor-e-tudo.jpg",
+        "classe": "grande-vertical"
+      },
+      {
+        "tipo": "video",
+        "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "classe": "vizualizacao-360"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/1/amor-e-tudo.jpg",
+        "classe": "grande-vertical"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/1/amor-e-tudo.jpg",
+        "classe": "grande-horizontal"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/1/amor-e-tudo.jpg",
+        "classe": ""
+      }
+    ]
+  },
+
+  "2": {
+    "titulo": "Não Nomeada",
+    "artista": "Wal Correia, @Cidade_hostil",
+    "localizacao": "Avenida Sul, Inocoop – Camaçari, BA",
+    "contexto": "A obra retrata uma onça-pintada e um tucano, dois animais marcantes da fauna brasileira, cercados por folhas e formas geométricas que lembram circuitos tecnológicos. A combinação dos elementos naturais e modernos destaca a riqueza da biodiversidade e a relação entre natureza, cidade e tecnologia. A obra busca transmitir uma mensagem de preservação ambiental e valorização da fauna brasileira, ao mesmo tempo em que reflete sobre a presença da tecnologia em nossas vidas e seu impacto no meio ambiente.",
+    "analise": "A pintura desperta a conscientização sobre a importância da preservação da fauna e do meio ambiente. Além de valorizar espécies brasileiras, incentiva o respeito à natureza e transforma o espaço urbano em um ambiente mais cultural, educativo e visualmente atrativo. A obra também provoca reflexões sobre a coexistência entre a vida selvagem e o desenvolvimento urbano, destacando a necessidade de equilíbrio entre progresso e preservação ambiental.",
+    "midias": [
+      {
+        "tipo": "img",
+        "url": "../Midias/2/cidadehostil4.jpg",
+        "classe": "bloco-destaque"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/2/cidadehostil4.3.jpg",
+        "classe": "grande-vertical"
+      },
+      {
+        "tipo": "video",
+        "url": "../Midias/2/cidadehostil4video.mp4",
+        "classe": "vizualizacao-360"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/2/cidadehostil4.2.jpg",
+        "classe": ""
+      }
+    ]
+  },
+
+  "3": {
+    "titulo": "Não Nomeada",
+    "artista": "Agenor Oliveira",
+    "localizacao": "Teatro Cidade do Saber, Rua do Telégrafo – Camaçari, BA",
+    "contexto": "N/A",
+    "analise": "N/A",
+    "midias": [
+      {
+        "tipo": "img",
+        "url": "../Midias/3/Agenor2.jpg",
+        "classe": "bloco-destaque"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/3/agenor2.1.jpg",
+        "classe": "grande-vertical"
+      },
+      {
+        "tipo": "img",
+        "url": "../Midias/3/Agenor2.2.jpg",
+        "classe": ""
+      }
+    ]
+  }
+}

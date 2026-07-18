@@ -21,7 +21,7 @@ function iniciar() {
 //Usa fetch (muito dificil de entender, igual css) para conectar no JSON do back-end
 function buscar_no_banco_dados(ID) {
     //Ao que tudo indica: Instala o banco de dados (?)
-    fetch("/back-end/dados-obras/banco.json")
+    fetch("banco.json")
         .then(resposta => {
             // Verifica se o arquivo foi encontrado e se ('!' == diferente) se não da erro
             if (!resposta.ok) {

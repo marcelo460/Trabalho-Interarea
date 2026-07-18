@@ -140,10 +140,14 @@ body {
 .mosaico-midias img:hover{
     transform: scale(1.50);
     transform: translateY(3%);
+    outline: 1px solid #d4af37;
+    box-shadow: #4a4330 0px 0px 20px 5px;
 } 
 .mosaico-midias video:hover {
    transform: scale(1.50);
    transform: translateY(3%);
+    outline: 1px solid #d4af37;
+    box-shadow: #4a4330 0px 0px 20px 5px;
 }
 
 /* Modificadores do Quebra-Cabeça (tamanhos diferentes) */
@@ -155,8 +159,15 @@ body {
     grid-column: span 2; /* Ocupa duas colunas de largura */
 }
 
-.bloco-destaque {
+.vizualizacao-360{
     grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bloco-destaque {
+    min-height: 100%;
+    min-width: 100%;
+    grid-column: span 4;
     grid-row: span 2; /* Ocupa um quadradão de 2x2 */
 }
 

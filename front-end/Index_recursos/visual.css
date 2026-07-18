@@ -93,6 +93,7 @@ body {
    Cabeçalho
    ========================================================================== */
 .cabecalho {
+    margin-top: 100px;
     text-align: center;
     margin-bottom: 2%; /* Distância para a galeria abaixo em % */
     background-color: #2a261c; 
@@ -127,18 +128,65 @@ body {
     justify-items: center;
 }
 
-.paragrafo {
-    text-align: center;
-    margin-bottom: 10%;
-    background-color: #d3a3322a;
-    border-radius: 8px;
-    display: grid;
-    padding: 5%;
-    gap: 3%;
-    width: 90%;
-    height: 100%;
-    justify-items: center;
+.cidade-card{
+    background-image: url('../Midias/municipio-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    gap: 10%;
+
 }
+
+.paragrafo {
+    background-color: #2a261c7c;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    margin-bottom: 60px;
+    line-height: 1.8;
+    align-items: center;
+    text-align: center;
+    text-shadow: #3d3838 0px 3px 7px;
+}
+
+.paragrafo h2 {
+    
+    font-size: 1.4rem;
+    color: #f5a209;
+    margin-bottom: 10px;
+    text-shadow: #d4af37 0px 3px 7px;
+}
+.paragrafo-titulo{
+    background-color: #177a7a41;
+    border: 2px solid #0313137e;
+    border-radius: 40%;
+    gap: 6%;
+    font-size: 1.1rem;
+}
+
+.paragrafo p {
+    color: #ffffff;
+    text-align: justify;
+    width: 90%;
+    gap: 6%;
+}
+
+.referencial {
+     background-color: #222;
+    padding: 4%; 
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    width: 35vw;        /* Nem px nem % é vw para poder calcular em tempo real a bosta do tamanho da tela */
+    min-width: 280px;   /* Quando a tela diminuir muito (celular) */
+    max-width: 300px;   /* Em monitores gigantescos, projetor */
+    max-height: 200px;
+}
+
+
 
 /* ==========================================================================
    Container da Obra (Card)
@@ -147,14 +195,16 @@ body {
     background-color: #222;
     padding: 4%; 
     border-radius: 4px;
+    background-clip: padding-box;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 10%;
     
     width: 35vw;        /* Nem px nem % é vw para poder calcular em tempo real a bosta do tamanho da tela */
     min-width: 280px;   /* Quando a tela diminuir muito (celular) */
     max-width: 500px;   /* Em monitores gigantescos, projetor */
     
-    margin: 20px auto;  /* Centraliza o card na tela ou tenta */
+    margin: 1px auto;  /* Centraliza o card na tela ou tenta */
 
     z-index: 1;
 }
