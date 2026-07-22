@@ -116,3 +116,16 @@ function exibirErro() {
         `;
     }
 }
+
+//  Codigo do botão na Logo para rolar pra cima
+        const logo = document.querySelector('.nav-logo');
+    if (logo) {
+        logo.addEventListener('click', function(elemento) {
+            elemento.preventDefault(); 
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    }

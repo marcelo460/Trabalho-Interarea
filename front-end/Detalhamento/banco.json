@@ -8,12 +8,12 @@
     "midias": [
       {
         "tipo": "img",
-        "url": "../Midias/1/amor-e-tudo.jpg",
+        "url": "Midias/1/amor-e-tudo.jpg",
         "classe": "bloco-destaque"
       },
       {
         "tipo": "img",
-        "url": "../Midias/1/amor-e-tudo.jpg",
+        "url": "Midias/1/amor-e-tudo.jpg",
         "classe": "grande-vertical"
       },
       {
@@ -23,17 +23,17 @@
       },
       {
         "tipo": "img",
-        "url": "../Midias/1/amor-e-tudo.jpg",
+        "url": "Midias/1/amor-e-tudo.jpg",
         "classe": "grande-vertical"
       },
       {
         "tipo": "img",
-        "url": "../Midias/1/amor-e-tudo.jpg",
+        "url": "Midias/1/amor-e-tudo.jpg",
         "classe": "grande-horizontal"
       },
       {
         "tipo": "img",
-        "url": "../Midias/1/amor-e-tudo.jpg",
+        "url": "Midias/1/amor-e-tudo.jpg",
         "classe": ""
       }
     ]
@@ -48,22 +48,22 @@
     "midias": [
       {
         "tipo": "img",
-        "url": "../Midias/2/cidadehostil4.jpg",
+        "url": "Midias/2/cidadehostil4.jpg",
         "classe": "bloco-destaque"
       },
       {
         "tipo": "img",
-        "url": "../Midias/2/cidadehostil4.3.jpg",
+        "url": "Midias/2/cidadehostil4.3.jpg",
         "classe": "grande-vertical"
       },
       {
         "tipo": "video",
-        "url": "../Midias/2/cidadehostil4video.mp4",
+        "url": "Midias/2/cidadehostil4video.mp4",
         "classe": "vizualizacao-360"
       },
       {
         "tipo": "img",
-        "url": "../Midias/2/cidadehostil4.2.jpg",
+        "url": "Midias/2/cidadehostil4.2.jpg",
         "classe": ""
       }
     ]
@@ -78,17 +78,17 @@
     "midias": [
       {
         "tipo": "img",
-        "url": "../Midias/3/Agenor2.jpg",
+        "url": "Midias/3/Agenor2.jpg",
         "classe": "bloco-destaque"
       },
       {
         "tipo": "img",
-        "url": "../Midias/3/agenor2.1.jpg",
+        "url": "Midias/3/agenor2.1.jpg",
         "classe": "grande-vertical"
       },
       {
         "tipo": "img",
-        "url": "../Midias/3/Agenor2.2.jpg",
+        "url": "Midias/3/Agenor2.2.jpg",
         "classe": ""
       }
     ]

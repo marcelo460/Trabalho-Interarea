@@ -59,6 +59,18 @@ body {
     cursor: hand;
 }
 
+.nav-logo:hover {
+    color: #f8c828;
+    border-radius: 30%;
+    padding: auto 0.5%;
+    background-color: #4a4330;
+}
+
+.nav-logo:active {
+    color: #cfbb78;
+    transform: scale(1.1);
+}
+
 /* Links de navegação na direita */
 .nav-links {
     display: flex;
@@ -87,6 +99,76 @@ body {
     background-color: #4a4330;
     /* Em vez de mudar font-size, usamos o scale para o efeito visual de crescimento */
     transform: scale(1.15); 
+}
+
+/* ==========================================================================
+   Pop-up
+   ========================================================================== */
+
+/* Fundo da tela inteira */
+.filtro-cinza {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    /* Cor de fundo semi-transparente */
+    background-color: rgba(116, 114, 114, 0.35); 
+    /* Efeito de desfoque e escala de cinza no fundo */
+    backdrop-filter: grayscale(100%);
+    /* Camada sobreposta aos outros elementos */
+    z-index: 10;
+    
+    /* Estado inicial invisível com transição */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+    /* Alinhamento dos itens internos */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Exibe o pop-up quando o ID é referenciado na URL */
+.filtro-cinza:target {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* Caixa interna do conteúdo */
+.popup-conteudo {
+    /* Cor de fundo com transparência */
+    background-color: rgba(74, 67, 48, 0.85);
+    /* Espaçamento interno */
+    padding: 3%;
+    /* Curvatura das bordas */
+    border-radius: 5%;
+    /* Sombra projetada */
+    box-shadow: 0% 0.5% 2% rgba(0, 0, 0, 0.3);
+    /* Largura e posição no canto esquerdo */
+    width: 30%;
+    margin-left: 5%;
+    /* Cor do texto */
+    color: #ffffff;
+    /* Cálculo da largura considerando o padding */
+
+}
+
+/* Botão de fechar */
+.botao-fechar {
+    display: inline-block;
+    /* Margens e espaçamentos */
+    margin-top: 5%;
+    margin-left: 0%;
+    padding: 2% 5%;
+    /* Cores e estilo */
+    background-color: #e74c3c;
+    color: #ffffff;
+    /* Curvatura das bordas do botão */
+    border-radius: 10%;
 }
 
 /* ==========================================================================
