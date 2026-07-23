@@ -204,7 +204,7 @@ body {
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 5%; /* Espaçamento de distância entre as molduras em % */
+    gap: 15%; /* Espaçamento de distância entre as molduras em % */
     max-width: 100%;
     width: 90%;
     justify-items: center;
