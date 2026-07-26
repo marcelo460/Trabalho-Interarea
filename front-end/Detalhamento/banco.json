@@ -1,96 +1,151 @@
 {
   "1": {
     "titulo": "Amor é Tudo",
-    "artista": "Wal Correia, @Cidade_hostil",
+    "artista": "Wal Correia, @Cidade_Hostil",
     "localizacao": "Primeira do Parque; Gleba B; Camaçari, BA",
-    "contexto": "A obra retrata uma pessoa negra sentada em posição de reflexão, cercada por elementos geométricos e tecnológicos, além da frase: 'Cores não são nada, números não são nada, amor é tudo.' A obra busca transmitir uma mensagem de amor e aceitação, destacando a importância do amor em meio às complexidades da vida moderna. A presença de elementos tecnológicos e geométricos sugere uma reflexão sobre a relação entre a humanidade e a tecnologia, enquanto a figura central representa a introspecção e a busca por significado.",
-    "analise": "A pintura incentiva a reflexão sobre o preconceito e a importância de enxergar as pessoas além de sua cor ou de rótulos. Ao destacar o amor e o respeito como valores centrais, a obra promove a inclusão, a valorização da diversidade e o combate à discriminação, contribuindo para uma sociedade mais justa e acolhedora.",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
     "midias": [
-      {
-        "tipo": "img",
-        "url": "Midias/1/amor-e-tudo.jpg",
-        "classe": "bloco-destaque"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/1/amor-e-tudo.jpg",
-        "classe": "grande-vertical"
-      },
-      {
-        "tipo": "video",
-        "url": "https://www.w3schools.com/html/mov_bbb.mp4",
-        "classe": "vizualizacao-360"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/1/amor-e-tudo.jpg",
-        "classe": "grande-vertical"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/1/amor-e-tudo.jpg",
-        "classe": "grande-horizontal"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/1/amor-e-tudo.jpg",
-        "classe": ""
-      }
+      { "tipo": "img", "url": "./Midias/1/mulher_black.jpg", "classe": "foto-principal" },
+      { "tipo": "video", "url": "./Midias/1/mulher_black_360.mp4", "classe": "video-360" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_frase.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_longe.jpg", "classe": "foto-galeria" }
     ]
   },
-
   "2": {
-    "titulo": "Não Nomeada",
-    "artista": "Wal Correia, @Cidade_hostil",
-    "localizacao": "Avenida Sul, Inocoop – Camaçari, BA",
-    "contexto": "A obra retrata uma onça-pintada e um tucano, dois animais marcantes da fauna brasileira, cercados por folhas e formas geométricas que lembram circuitos tecnológicos. A combinação dos elementos naturais e modernos destaca a riqueza da biodiversidade e a relação entre natureza, cidade e tecnologia. A obra busca transmitir uma mensagem de preservação ambiental e valorização da fauna brasileira, ao mesmo tempo em que reflete sobre a presença da tecnologia em nossas vidas e seu impacto no meio ambiente.",
-    "analise": "A pintura desperta a conscientização sobre a importância da preservação da fauna e do meio ambiente. Além de valorizar espécies brasileiras, incentiva o respeito à natureza e transforma o espaço urbano em um ambiente mais cultural, educativo e visualmente atrativo. A obra também provoca reflexões sobre a coexistência entre a vida selvagem e o desenvolvimento urbano, destacando a necessidade de equilíbrio entre progresso e preservação ambiental.",
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
     "midias": [
-      {
-        "tipo": "img",
-        "url": "Midias/2/cidadehostil4.jpg",
-        "classe": "bloco-destaque"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/2/cidadehostil4.3.jpg",
-        "classe": "grande-vertical"
-      },
-      {
-        "tipo": "video",
-        "url": "Midias/2/cidadehostil4video.mp4",
-        "classe": "vizualizacao-360"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/2/cidadehostil4.2.jpg",
-        "classe": ""
-      }
+      { "tipo": "img", "url": "./Midias/2/rosto.jpg", "classe": "foto-principal" },
+      { "tipo": "video", "url": "./Midias/2/rosto_360.mp4", "classe": "video-360" },
+      { "tipo": "img", "url": "./Midias/2/rosto_longe.jpg", "classe": "foto-galeria" }
     ]
   },
-
   "3": {
-    "titulo": "Não Nomeada",
-    "artista": "Agenor Oliveira",
-    "localizacao": "Teatro Cidade do Saber, Rua do Telégrafo – Camaçari, BA",
-    "contexto": "N/A",
-    "analise": "N/A",
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
     "midias": [
-      {
-        "tipo": "img",
-        "url": "Midias/3/Agenor2.jpg",
-        "classe": "bloco-destaque"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/3/agenor2.1.jpg",
-        "classe": "grande-vertical"
-      },
-      {
-        "tipo": "img",
-        "url": "Midias/3/Agenor2.2.jpg",
-        "classe": ""
-      }
+      { "tipo": "img", "url": "./Midias/3/Mulher_negra.jpg", "classe": "foto-principal" },
+      { "tipo": "img", "url": "./Midias/3/arvore.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "4": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/4/igreja.jpg", "classe": "foto-principal" },
+      { "tipo": "img", "url": "./Midias/4/igreja_longe.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/4/igreja_perto.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "5": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/5/mulheres_negras.jpg", "classe": "foto-principal" },
+      { "tipo": "img", "url": "./Midias/5/festa.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/5/festa_longe.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/5/mulheres_negras_longe.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/5/praia.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "6": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/6/quadros.jpg", "classe": "foto-principal" }
+    ]
+  },
+  "7": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/7/paisagem_praca.jpg", "classe": "foto-principal" },
+      { "tipo": "img", "url": "./Midias/7/paisagem_praia.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "8": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/8/mulher_natureza.jpg", "classe": "foto-principal" },
+      { "tipo": "img", "url": "./Midias/8/cangaco.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/8/iemanja.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/8/mulheres_agua.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/8/tartaruga.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "9": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "foto-principal" },
+      { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "video-360" },
+      { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/9/gorila_zoom.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "10": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/10/idosa_negra.jpg", "classe": "foto-principal" },
+      { "tipo": "video", "url": "./Midias/10/idosa_negra_360.mp4", "classe": "video-360" },
+      { "tipo": "img", "url": "./Midias/10/idosa_negra_longe.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "11": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/11/camelos.jpg", "classe": "foto-principal" },
+      { "tipo": "img", "url": "./Midias/11/camelos_longe.jpg", "classe": "foto-galeria" }
+    ]
+  },
+  "12": {
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/12/onca.jpg", "classe": "foto-principal" },
+      { "tipo": "video", "url": "./Midias/12/tucano_onca.mp4", "classe": "video-360" },
+      { "tipo": "img", "url": "./Midias/12/onca_tucano.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/12/onca_zoom.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/12/tucano.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/12/tucano_perto.jpg", "classe": "foto-galeria" }
     ]
   }
 }
