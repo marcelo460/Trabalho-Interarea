@@ -278,8 +278,8 @@ body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.75);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     z-index: 2000;
     opacity: 0;
     pointer-events: none;
@@ -298,7 +298,7 @@ body {
     padding: 30px;
     max-width: 400px;
     width: 90%;
-    text-align: center;
+    text-align: left;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
