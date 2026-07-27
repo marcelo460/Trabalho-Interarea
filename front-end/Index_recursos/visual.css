@@ -32,7 +32,7 @@ body {
     left: 0%;
     width: 100%;
     border-radius: 2%; /* Hotbar total não costuma ter borda arredondada nas pontas */
-    background-color: rgba(26, 26, 26, 0.95); 
+    background-color: rgba(100, 99, 82, 0.726); 
     backdrop-filter: blur(5px); 
     border-bottom: 1px solid #333;
     z-index: 1000; 
@@ -57,18 +57,6 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     cursor: hand;
-}
-
-.nav-logo:hover {
-    color: #f8c828;
-    border-radius: 30%;
-    padding: auto 0.5%;
-    background-color: #4a4330;
-}
-
-.nav-logo:active {
-    color: #cfbb78;
-    transform: scale(1.1);
 }
 
 /* Links de navegação na direita */
@@ -102,77 +90,7 @@ body {
 }
 
 /* ==========================================================================
-   Pop-up
-   ========================================================================== */
-
-/* Fundo da tela inteira */
-.filtro-cinza {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    /* Cor de fundo semi-transparente */
-    background-color: rgba(116, 114, 114, 0.35); 
-    /* Efeito de desfoque e escala de cinza no fundo */
-    backdrop-filter: grayscale(100%);
-    /* Camada sobreposta aos outros elementos */
-    z-index: 10;
-    
-    /* Estado inicial invisível com transição */
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    
-    /* Alinhamento dos itens internos */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-/* Exibe o pop-up quando o ID é referenciado na URL */
-.filtro-cinza:target {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
-/* Caixa interna do conteúdo */
-.popup-conteudo {
-    /* Cor de fundo com transparência */
-    background-color: rgba(74, 67, 48, 0.85);
-    /* Espaçamento interno */
-    padding: 3%;
-    /* Curvatura das bordas */
-    border-radius: 5%;
-    /* Sombra projetada */
-    box-shadow: 0% 0.5% 2% rgba(0, 0, 0, 0.3);
-    /* Largura e posição no canto esquerdo */
-    width: 30%;
-    margin-left: 5%;
-    /* Cor do texto */
-    color: #ffffff;
-    /* Cálculo da largura considerando o padding */
-
-}
-
-/* Botão de fechar */
-.botao-fechar {
-    display: inline-block;
-    /* Margens e espaçamentos */
-    margin-top: 5%;
-    margin-left: 0%;
-    padding: 2% 5%;
-    /* Cores e estilo */
-    background-color: #e74c3c;
-    color: #ffffff;
-    /* Curvatura das bordas do botão */
-    border-radius: 10%;
-}
-
-/* ==========================================================================
-   Cabeçalho
+   Cabeçalhos
    ========================================================================== */
 .cabecalho {
     margin-top: 100px;
@@ -198,14 +116,40 @@ body {
     color: #c5c5c5;
 }
 
+.cabecalho-galeria {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 2%; /* Distância para a galeria abaixo em % */
+    background-color: #2a261c; 
+    padding: 3.5%; /* Espaço interno do bloco em % */
+    border-radius: 8px;
+    border: 1px solid #4a4330;
+    max-width: 100%;
+    width: 70%; /* Largura do banner proporcional à tela */
+}
+
+.cabecalho-galeria h1 {
+    font-size: 2.5rem; /* Mantido o tamanho do texto original */
+    font-weight: 300;
+    color: #d4af37; 
+    margin-bottom: 1.5%; /* Distância entre título e subtítulo */
+}
+
+.cabecalho-galeria p {
+    font-style: italic;
+    color: #c5c5c5;
+}
+
 /* ==========================================================================
    Grid da Galeria
    ========================================================================== */
 .galeria {
     display: grid;
-    gap: 15%; /* Espaçamento de distância entre as molduras em % */
-    max-width: 100%;
-    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; /* Use px ou rem para espaçamentos internos do grid */
+    max-width: 1200px;
+    width: 90%; /* Ajustado de 900% para 90% */
+    margin: 0 auto;
     justify-items: center;
 }
 
@@ -276,23 +220,19 @@ body {
     background-color: #222;
     padding: 4%; 
     border-radius: 4px;
-    background-clip: padding-box;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    gap: 10%;
     
-    width: 35vw;        /* Nem px nem % é vw para poder calcular em tempo real a bosta do tamanho da tela */
-    min-width: 280px;   /* Quando a tela diminuir muito (celular) */
-    max-width: 500px;   /* Em monitores gigantescos, projetor */
-    
-    margin: 1px auto;  /* Centraliza o card na tela ou tenta */
-
+    width: 100%;
+    max-width: 400px;
+    position: relative; /* Permite posicionar as informações melhor */
     z-index: 1;
 }
 
 .card-img:hover {
-    transform: translateX(4%); 
-    box-shadow: 0px 15px 35px rgba(212, 175, 55, 0.2); 
+    transform: scale(1.02); 
+    box-shadow: 0px 15px 35px rgba(212, 175, 55, 0.2);
+    z-index: 10;
 }
 
 /* A Moldura do Quadro */
@@ -332,22 +272,23 @@ body {
    ========================================================================== */
 .informacoes {
     background-color: rgba(226, 228, 140, 0.226);
-    margin-left: -40%;;
-    margin-top: -40%; /* Distância do texto para a moldura acima */
-    padding-top: 1%; /* Distância interna da linha divisória */
+    margin-top: 15px;
+    padding: 12px;
     border-top: 1px solid #333; 
     text-align: left;
+    border-radius: 4px;
     
-    opacity: 0;             
-    transform: translateX(4%); /* Empurra o texto levemente para baixo */
+    opacity: 0;
+    transform: translateY(15px); /* Desloca levemente para baixo */
     
-    /* faz transicionar suavemente por 0.4 sec */
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    /* Transição suave de opacidade, movimento e cor */
+    transition: opacity 0.4s ease, transform 0.4s ease, background-color 0.4s ease;
 }
 
 .card-img:hover .informacoes {
-    opacity: 1;             
-    transform: translateY(3.7%); /* Volta para a posição original */
+    opacity: 1;
+    transform: translateY(0); /* Volta à posição original ao passar o mouse */
+    background-color: rgba(42, 43, 20, 0.89); 
 }
 
 .art-name {
