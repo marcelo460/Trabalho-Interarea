@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             quadro.classList.add("highlighted");
 
             //Leva para a outra pagina
-            window.location.href = `front-end/Detalhamento/detalhamento.html?id=${id}&title=${encodeURIComponent(title)}&artist=${encodeURIComponent(artist)}`;
+            window.location.href = `front-end/Detalhamento/detalhamento.html?id=${id}`;
         });
     });
 

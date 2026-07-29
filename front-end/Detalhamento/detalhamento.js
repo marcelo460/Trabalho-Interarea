@@ -57,6 +57,10 @@ function buscar_no_banco_dados(ID) {
 function renderizarDadosNoHTML(dados_obra) {
     // Pega as principais informações da obra e coloca no HTML
     document.getElementById('titulo-obra').innerText = dados_obra.titulo;
+    if(dados_obra.titulo === "Detalhamento Indisponivél."){
+        indisponivel();
+    };
+
     document.getElementById('artista-obra').innerText = dados_obra.artista;
     document.getElementById('localizacao-obra').innerText = dados_obra.localizacao;
     document.getElementById('texto-contexto').innerText = dados_obra.contexto;
@@ -102,9 +106,19 @@ function renderizarDadosNoHTML(dados_obra) {
     }
 }
 
+
+//"Queremos pipoca" nicolas gabriel 2026
+function indisponivel() {
+    let containe_tela = document.querySelector('.texto-detalhados');
+    const container_titulo = document.querySelector('.cabecalho-obra');
+    container_titulo.style.opacity = '1';
+    container_tela.style.opacity = '1';
+};
 //Caso de algum erro ele apaga onde aparece as imagens e coloca um texto para a pessoa voltar ao index
 function exibirErro() {
     const containerTela = document.querySelector('.container-detalhes');
+    const container_titulo = document.querySelector('.cabecalho-obra');
+    container_titulo.style.opacity = '0';
     if (containerTela) {
         containerTela.innerHTML = `
             <div style="text-align:center; padding: 100px 0;">

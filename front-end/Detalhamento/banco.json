@@ -6,23 +6,24 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/1/mulher_black.jpg", "classe": "foto-principal" },
-      { "tipo": "video", "url": "./Midias/1/mulher_black_360.mp4", "classe": "video-360" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_frase.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_longe.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/1/mulher_black_longe.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black.jpg", "classe": "" },
+      { "tipo": "video", "url": "./Midias/1/mulher_black_360.mp4", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_frase.jpg", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.jpg", "classe": " " }
+            
     ]
   },
   "2": {
     "titulo": "Aguardando texto do Nathaniel...",
     "artista": "Aguardando texto do Nathaniel...",
     "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
+    "contexto": "Aguardando texto ...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/2/rosto.jpg", "classe": "foto-principal" },
-      { "tipo": "video", "url": "./Midias/2/rosto_360.mp4", "classe": "video-360" },
-      { "tipo": "img", "url": "./Midias/2/rosto_longe.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/2/rosto_longe.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/2/rosto.jpg", "classe": "grande-vertical" },
+      { "tipo": "video", "url": "./Midias/2/rosto_360.mp4", "classe": "vizualizacao-360" }
     ]
   },
   "3": {
@@ -32,8 +33,7 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/3/Mulher_negra.jpg", "classe": "foto-principal" },
-      { "tipo": "img", "url": "./Midias/3/arvore.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/3/Mulher_negra.jpg", "classe": "bloco-destaque" }
     ]
   },
   "4": {
@@ -43,9 +43,9 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/4/igreja.jpg", "classe": "foto-principal" },
-      { "tipo": "img", "url": "./Midias/4/igreja_longe.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/4/igreja_perto.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/4/igreja.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/4/igreja_longe.jpg", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/4/igreja_perto.jpg", "classe": "grande-vertical" }
     ]
   },
   "5": {
@@ -55,11 +55,12 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/5/mulheres_negras.jpg", "classe": "foto-principal" },
-      { "tipo": "img", "url": "./Midias/5/festa.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/5/festa_longe.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/5/mulheres_negras_longe.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/5/praia.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/5/mulheres_negras.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/5/festa.jpg", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/5/festa_longe.jpg", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/5/praia.jpg", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/5/mulheres_negras_longe.jpg", "classe": "foto-galeria" }
+
     ]
   },
   "6": {
@@ -69,7 +70,7 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/6/quadros.jpg", "classe": "foto-principal" }
+      { "tipo": "img", "url": "./Midias/6/quadros.jpg", "classe": "bloco-destaque" }
     ]
   },
   "7": {
@@ -79,8 +80,8 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/7/paisagem_praca.jpg", "classe": "foto-principal" },
-      { "tipo": "img", "url": "./Midias/7/paisagem_praia.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/7/paisagem_praca.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/7/paisagem_praia.jpg", "classe": "grande-horizontal" }
     ]
   },
   "8": {
@@ -90,11 +91,12 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/8/mulher_natureza.jpg", "classe": "foto-principal" },
-      { "tipo": "img", "url": "./Midias/8/cangaco.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/8/iemanja.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/8/mulheres_agua.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/8/tartaruga.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/8/cangaco.jpg", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/8/mulher_natureza.jpg", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/8/arvore.jpg", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/8/iemanja.jpg", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/8/tartaruga.jpg", "classe": "grande-horizontal" }
+      
     ]
   },
   "9": {
@@ -104,34 +106,17 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "foto-principal" },
-      { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "video-360" },
-      { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/9/gorila_zoom.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "grande-vertical" },
+      { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/9/gorila_zoom.jpg", "classe": "grande-vertical" }
     ]
   },
   "10": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
-    "midias": [
-      { "tipo": "img", "url": "./Midias/10/idosa_negra.jpg", "classe": "foto-principal" },
-      { "tipo": "video", "url": "./Midias/10/idosa_negra_360.mp4", "classe": "video-360" },
-      { "tipo": "img", "url": "./Midias/10/idosa_negra_longe.jpg", "classe": "foto-galeria" }
-    ]
+    "titulo": "Detalhamento Indisponivél."
   },
   "11": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
-    "midias": [
-      { "tipo": "img", "url": "./Midias/11/camelos.jpg", "classe": "foto-principal" },
-      { "tipo": "img", "url": "./Midias/11/camelos_longe.jpg", "classe": "foto-galeria" }
-    ]
+    "titulo": "Detalhamento Indisponivél."
   },
   "12": {
     "titulo": "Aguardando texto do Nathaniel...",
@@ -140,11 +125,10 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/12/onca.jpg", "classe": "foto-principal" },
-      { "tipo": "video", "url": "./Midias/12/tucano_onca.mp4", "classe": "video-360" },
-      { "tipo": "img", "url": "./Midias/12/onca_tucano.jpg", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/12/onca_tucano.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/12/onca.jpg", "classe": "grande-horizontal" },
+      { "tipo": "video", "url": "./Midias/12/tucano_onca.mp4", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/12/onca_zoom.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/12/tucano.jpg", "classe": "foto-galeria" },
       { "tipo": "img", "url": "./Midias/12/tucano_perto.jpg", "classe": "foto-galeria" }
     ]
   }
