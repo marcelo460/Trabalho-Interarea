@@ -113,16 +113,26 @@
   },
   "10": {
     "titulo": "Detalhamento Indisponivél."
+      "artista": "Wal Correia, @Cidade_Hostil",
+    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
+    "contexto": "O mural retrata o perfil de uma mulher negra usando um turbante verde e brincos, ao lado da frase (Sabedoria) em destaque, acompanhada por formas geométricas e elementos florais que reforçam a composição artística.",
+    "analise": "A obra valoriza a identidade e a cultura negra, destacando a sabedoria como um símbolo de resistência e conhecimento. Além disso, promove representatividade, combate preconceitos e transforma o espaço urbano em um local de reflexão e valorização da diversidade.",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "grande-vertical" },
+      { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/9/gorila_zoom.jpg", "classe": "grande-vertical" }
+    ]
   },
   "11": {
     "titulo": "Detalhamento Indisponivél."
   },
   "12": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
+    "titulo": "Não identificado",
+    "artista": "Wall Correira, @Cidade_Hostil",
+    "localizacao": "Avenida Sul; Inocoop; Camaçari, BA",
+    "contexto": " A obra retrata uma onça-pintada e um tucano, dois animais marcantes da fauna brasileira, cercados por folhas e formas geométricas que lembram circuitos tecnológicos. A combinação dos elementos naturais e modernos destaca a riqueza da biodiversidade e a relação entre natureza, cidade e tecnologia.",
+    "analise": "A pintura desperta a conscientização sobre a importância da preservação da fauna e do meio ambiente. Além de valorizar espécies brasileiras, incentiva o respeito à natureza e transforma o espaço urbano em um ambiente mais cultural, educativo e visualmente atrativo.",
     "midias": [
       { "tipo": "img", "url": "./Midias/12/onca_tucano.jpg", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/12/onca.jpg", "classe": "grande-horizontal" },
