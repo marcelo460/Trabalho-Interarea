@@ -3,8 +3,8 @@
     "titulo": "Amor é Tudo",
     "artista": "Wal Correia, @Cidade_Hostil",
     "localizacao": "Primeira do Parque; Gleba B; Camaçari, BA",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
+    "contexto": " A obra retrata uma pessoa negra sentada em posição de reflexão, cercada por elementos geométricos e tecnológicos, além da frase: "Cores não são nada, números não são nada, amor é tudo.",
+    "analise": " A pintura incentiva a reflexão sobre o preconceito e a importância de enxergar as pessoas além de sua cor ou de rótulos. Ao destacar o amor e o respeito como valores centrais, a obra promove a inclusão, a valorização da diversidade e o combate à discriminação, contribuindo para uma sociedade mais justa e acolhedora.",
     "midias": [
       { "tipo": "img", "url": "./Midias/1/mulher_black_longe.jpg", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/1/mulher_black.jpg", "classe": "" },
@@ -15,11 +15,11 @@
     ]
   },
   "2": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto ...",
-    "analise": "Aguardando texto...",
+    "titulo": "Não identificado",
+    "artista": "Wal Correia, @Cidade_Hostil",
+    "localizacao": "Avenida Concêntrica; Camaçari, BA"
+    "contexto": "O mural retrata uma mulher com vestimentas e adornos inspirados na cultura árabe, acompanhada de inscrições em árabe e da silhueta de camelos ao pôr do sol.",
+    "analise": "A obra compõe a identidade visual de um estabelecimento e valoriza a diversidade cultural, incentiva o respeito entre diferentes povos e transforma o espaço urbano em um local de arte, diálogo e reflexão.",
     "midias": [
       { "tipo": "img", "url": "./Midias/2/rosto_longe.jpg", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/2/rosto.jpg", "classe": "grande-vertical" },
@@ -27,12 +27,11 @@
     ]
   },
   "3": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
-    "midias": [
+    "titulo": "Não identificado",
+    "artista": "Emilly Sá, @emillysartes"
+    "localizacao": "Cidade do Saber; Rua do Telégrafo; Camaçari, BA"
+    "contexto": "A pintura retrata uma mulher negra em destaque, usando turbante e brincos dourados, cercada por flores, folhas e frutos coloridos. As cores vibrantes e os elementos naturais representam a beleza, a força, a ancestralidade e a riqueza da cultura afro-brasileira.",
+    "analise": "A obra fortalece a valorização da cultura e da identidade negra, promovendo representatividade e respeito à diversidade. Além de embelezar o espaço público, incentiva a reflexão sobre igualdade, inclusão e o reconhecimento das contribuições da população negra para a sociedade"
       { "tipo": "img", "url": "./Midias/3/Mulher_negra.jpg", "classe": "bloco-destaque" }
     ]
   },
@@ -100,11 +99,11 @@
     ]
   },
   "9": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
+    "titulo": "Não identificado",
+    "artista": "Wal Correia, @Cidade_Hostil",
+    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
+    "contexto": "O mural retrata um gorila com parte do rosto transformada em componentes mecânicos e eletrônicos, unindo elementos da natureza e da tecnologia em uma composição marcante. Seus componentes eletrônicos são representados pela própria parte elétrica do lugar.",
+    "analise": "A obra compõe a identidade visual de um estúdio de tatuagem e convida à reflexão sobre a relação entre o ser humano, a tecnologia e o meio ambiente, além de valorizar o grafite como forma de expressão artística e transformar o espaço urbano em um ambiente de cultura e conscientização.",
     "midias": [
       { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "grande-vertical" },
