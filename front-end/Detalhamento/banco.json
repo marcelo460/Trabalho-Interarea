@@ -3,36 +3,37 @@
     "titulo": "Amor é Tudo",
     "artista": "Wal Correia, @Cidade_Hostil",
     "localizacao": "Primeira do Parque; Gleba B; Camaçari, BA",
-    "contexto": " A obra retrata uma pessoa negra sentada em posição de reflexão, cercada por elementos geométricos e tecnológicos, além da frase: "Cores não são nada, números não são nada, amor é tudo.",
+    "contexto": " A obra retrata uma pessoa negra sentada em posição de reflexão, cercada por elementos geométricos e tecnológicos, além da frase: Cores não são nada, números não são nada, amor é tudo.",
     "analise": " A pintura incentiva a reflexão sobre o preconceito e a importância de enxergar as pessoas além de sua cor ou de rótulos. Ao destacar o amor e o respeito como valores centrais, a obra promove a inclusão, a valorização da diversidade e o combate à discriminação, contribuindo para uma sociedade mais justa e acolhedora.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/1/mulher_black_longe.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black.jpg", "classe": "" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_longe.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black.avif", "classe": "" },
       { "tipo": "video", "url": "./Midias/1/mulher_black_360.mp4", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_frase.jpg", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.jpg", "classe": " " }
+      { "tipo": "img", "url": "./Midias/1/mulher_black_frase.avif", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.avif", "classe": " " }
             
     ]
   },
   "2": {
     "titulo": "Não identificado",
     "artista": "Wal Correia, @Cidade_Hostil",
-    "localizacao": "Avenida Concêntrica; Camaçari, BA"
+    "localizacao": "Avenida Concêntrica; Camaçari, BA",
     "contexto": "O mural retrata uma mulher com vestimentas e adornos inspirados na cultura árabe, acompanhada de inscrições em árabe e da silhueta de camelos ao pôr do sol.",
     "analise": "A obra compõe a identidade visual de um estabelecimento e valoriza a diversidade cultural, incentiva o respeito entre diferentes povos e transforma o espaço urbano em um local de arte, diálogo e reflexão.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/2/rosto_longe.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/2/rosto.jpg", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/2/rosto_longe.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/2/rosto.avif", "classe": "grande-vertical" },
       { "tipo": "video", "url": "./Midias/2/rosto_360.mp4", "classe": "vizualizacao-360" }
     ]
   },
   "3": {
     "titulo": "Não identificado",
-    "artista": "Emilly Sá, @emillysartes"
-    "localizacao": "Cidade do Saber; Rua do Telégrafo; Camaçari, BA"
+    "artista": "Emilly Sá, @emillysartes",
+    "localizacao": "Cidade do Saber; Rua do Telégrafo; Camaçari, BA",
     "contexto": "A pintura retrata uma mulher negra em destaque, usando turbante e brincos dourados, cercada por flores, folhas e frutos coloridos. As cores vibrantes e os elementos naturais representam a beleza, a força, a ancestralidade e a riqueza da cultura afro-brasileira.",
-    "analise": "A obra fortalece a valorização da cultura e da identidade negra, promovendo representatividade e respeito à diversidade. Além de embelezar o espaço público, incentiva a reflexão sobre igualdade, inclusão e o reconhecimento das contribuições da população negra para a sociedade"
-      { "tipo": "img", "url": "./Midias/3/Mulher_negra.jpg", "classe": "bloco-destaque" }
+    "analise": "A obra fortalece a valorização da cultura e da identidade negra, promovendo representatividade e respeito à diversidade. Além de embelezar o espaço público, incentiva a reflexão sobre igualdade, inclusão e o reconhecimento das contribuições da população negra para a sociedade",
+    "midias": [
+    { "tipo": "img", "url": "./Midias/3/Mulher_negra.avif", "classe": "bloco-destaque" }
     ]
   },
   "4": {
@@ -42,9 +43,9 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/4/igreja.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/4/igreja_longe.jpg", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/4/igreja_perto.jpg", "classe": "grande-vertical" }
+      { "tipo": "img", "url": "./Midias/4/igreja_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/4/igreja_longe_resultado.avif", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/4/igreja_perto_resultado.avif", "classe": "grande-vertical" }
     ]
   },
   "5": {
@@ -54,11 +55,11 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/5/mulheres_negras.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/5/festa.jpg", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/5/festa_longe.jpg", "classe": "grande-horizontal" },
-      { "tipo": "img", "url": "./Midias/5/praia.jpg", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/5/mulheres_negras_longe.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/5/mulheres_negras_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/5/festa_resultado.avif", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/5/festa_longe_resultado.avif", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/5/praia_resultado.avif", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/5/mulheres_negras_longe_resultado.avif", "classe": "foto-galeria" }
 
     ]
   },
@@ -69,7 +70,7 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/6/quadros.jpg", "classe": "bloco-destaque" }
+      { "tipo": "img", "url": "./Midias/6/quadros_resultado.avif", "classe": "bloco-destaque" }
     ]
   },
   "7": {
@@ -79,8 +80,8 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/7/paisagem_praca.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/7/paisagem_praia.jpg", "classe": "grande-horizontal" }
+      { "tipo": "img", "url": "./Midias/7/paisagem_praca_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/7/paisagem_praia_resultado.avif", "classe": "grande-horizontal" }
     ]
   },
   "8": {
@@ -90,11 +91,11 @@
     "contexto": "Aguardando texto...",
     "analise": "Aguardando texto...",
     "midias": [
-      { "tipo": "img", "url": "./Midias/8/cangaco.jpg", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/8/mulher_natureza.jpg", "classe": "grande-horizontal" },
-      { "tipo": "img", "url": "./Midias/8/arvore.jpg", "classe": "grande-horizontal" },
-      { "tipo": "img", "url": "./Midias/8/iemanja.jpg", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/8/tartaruga.jpg", "classe": "grande-horizontal" }
+      { "tipo": "img", "url": "./Midias/8/cangaco_resultado.avif", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/8/mulher_natureza_resultado.avif", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/8/arvore_resultado.avif", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/8/iemanja_resultado.avif", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/8/tartaruga_resultado.avif", "classe": "grande-horizontal" }
       
     ]
   },
@@ -105,23 +106,23 @@
     "contexto": "O mural retrata um gorila com parte do rosto transformada em componentes mecânicos e eletrônicos, unindo elementos da natureza e da tecnologia em uma composição marcante. Seus componentes eletrônicos são representados pela própria parte elétrica do lugar.",
     "analise": "A obra compõe a identidade visual de um estúdio de tatuagem e convida à reflexão sobre a relação entre o ser humano, a tecnologia e o meio ambiente, além de valorizar o grafite como forma de expressão artística e transformar o espaço urbano em um ambiente de cultura e conscientização.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/9/gorila_longe_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/9/gorila_resultado.avif", "classe": "grande-vertical" },
       { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/9/gorila_zoom.jpg", "classe": "grande-vertical" }
+      { "tipo": "img", "url": "./Midias/9/gorila_zoom_resultado.avif", "classe": "grande-vertical" }
     ]
   },
   "10": {
-    "titulo": "Detalhamento Indisponivél."
+    "titulo": "Detalhamento Indisponivél.",
       "artista": "Wal Correia, @Cidade_Hostil",
     "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
     "contexto": "O mural retrata o perfil de uma mulher negra usando um turbante verde e brincos, ao lado da frase (Sabedoria) em destaque, acompanhada por formas geométricas e elementos florais que reforçam a composição artística.",
     "analise": "A obra valoriza a identidade e a cultura negra, destacando a sabedoria como um símbolo de resistência e conhecimento. Além disso, promove representatividade, combate preconceitos e transforma o espaço urbano em um local de reflexão e valorização da diversidade.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/9/gorila_longe.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/9/gorila.jpg", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/9/gorila_longe_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/9/gorila_resultado.avif", "classe": "grande-vertical" },
       { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/9/gorila_zoom.jpg", "classe": "grande-vertical" }
+      { "tipo": "img", "url": "./Midias/9/gorila_zoom_resultado.avif", "classe": "grande-vertical" }
     ]
   },
   "11": {
@@ -134,11 +135,11 @@
     "contexto": " A obra retrata uma onça-pintada e um tucano, dois animais marcantes da fauna brasileira, cercados por folhas e formas geométricas que lembram circuitos tecnológicos. A combinação dos elementos naturais e modernos destaca a riqueza da biodiversidade e a relação entre natureza, cidade e tecnologia.",
     "analise": "A pintura desperta a conscientização sobre a importância da preservação da fauna e do meio ambiente. Além de valorizar espécies brasileiras, incentiva o respeito à natureza e transforma o espaço urbano em um ambiente mais cultural, educativo e visualmente atrativo.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/12/onca_tucano.jpg", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/12/onca.jpg", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/12/onca_tucano_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/12/onca_resultado.avif", "classe": "grande-horizontal" },
       { "tipo": "video", "url": "./Midias/12/tucano_onca.mp4", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/12/onca_zoom.jpg", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/12/tucano_perto.jpg", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/12/onca_zoom_resultado.avif", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/12/tucano_perto_resultado.avif", "classe": "foto-galeria" }
     ]
   }
 }
