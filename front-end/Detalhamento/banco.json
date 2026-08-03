@@ -146,8 +146,10 @@ Na parte externa lateral, à frente do pátio delimitado por uma cerca e portão
     "artista": "Não aplicável por ser uma arquitetura religiosa",
     "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63 – Camaçari, BA",
     "contexto": "A arquitetura simples e harmônica de tonalidade bege constituem o design central da igreja, que também conta com elementos naturais, como árvores, para destacar a sua beleza. Outro detalhe seria o muro que a contorna, proporcionando maior segurança ao ambiente religioso.",
-    "analise": "A igreja constitui o espaço primordial para os católicos do bairro e também de demais localidades da cidade que se deslocam para ",
+    "analise": "A igreja constitui o espaço primordial para os católicos por ser o local de renovação da fé, intimidade com o sagrado e profundidade espiritual através dos sacramentos - como o da Reconciliação e o da Comunhão. Além de ser um importante patrimônio da comunidade, contribuindo para a preservação da memória, da história e das tradições locais.",
     "midias": [
+        { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.1", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" },
     ]
   }
 }
