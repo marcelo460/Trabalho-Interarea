@@ -139,7 +139,14 @@
       { "tipo": "img", "url": "./Midias/12/onca_resultado.avif", "classe": "grande-horizontal" },
       { "tipo": "video", "url": "./Midias/12/tucano_onca.mp4", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/12/onca_zoom_resultado.avif", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/12/tucano_perto_resultado.avif", "classe": "foto-galeria" }
+      { "tipo": "img", "url": "./Midias/12/tucano_perto_resultado.avif", "classe": "foto-galeria" },
+      "13": {
+    "titulo": "Não identificado",
+    "artista": "Magno Benício Lago",
+    "localizacao": "Rua Bela Vista – Camaçari, BA",
+    "contexto": "A obra apresenta dois retratos femininos de traços afro-brasileiros com turbantes, mas encontra-se parcialmente deteriorado, com reboco descascado sobre os rostos.",
+    "analise": "A obra retrata duas mulheres negras com turbantes, e enfatiza a participação e protagonismo femininos afro-brasileiros, aproximando-se da valorização de epistemologias negras defendidas por Walsh.",
+    "midias": [
     ]
   }
 }
