@@ -1,1 +1,1 @@
-N. Sra Guadalupe
+Comunidade Nossa Senhora de Guadalupe
