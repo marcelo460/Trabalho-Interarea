@@ -1,1 +1,1 @@
-Igreja Senhora Sant'Ana
+Paróquia Senhora Sant'Ana
