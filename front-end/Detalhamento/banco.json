@@ -139,7 +139,9 @@
       { "tipo": "img", "url": "./Midias/12/onca_resultado.avif", "classe": "grande-horizontal" },
       { "tipo": "video", "url": "./Midias/12/tucano_onca.mp4", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/12/onca_zoom_resultado.avif", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/12/tucano_perto_resultado.avif", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/12/tucano_perto_resultado.avif", "classe": "foto-galeria" }
+    ]
+  },
       "13": {
     "titulo": "Comunidade Nossa Senhora de Guadalupe",
     "artista": "Não aplicável por ser uma arquitetura religiosa",
@@ -148,10 +150,10 @@
     "analise": "A igreja constitui o espaço primordial para os católicos por ser o local de renovação da fé, intimidade com o sagrado e profundidade espiritual através dos sacramentos - como o da Reconciliação e o da Comunhão. Além de ser um importante patrimônio da comunidade, contribuindo para a preservação da memória, da história e das tradições locais.",
     "midias": [
         { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.1", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" },
+        { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" }
     ]
   },
-        "13": {
+        "14": {
     "titulo": "Comunidade Nossa Senhora de Guadalupe",
     "artista": "Não aplicável por ser uma arquitetura religiosa",
     "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63, Camaçari - BA",
@@ -159,9 +161,10 @@
     "analise": "A igreja constitui o espaço primordial para os católicos por ser o local de renovação da fé, intimidade com o sagrado e profundidade espiritual através dos sacramentos - como o da Reconciliação e o da Comunhão. Além de ser um importante patrimônio da comunidade, contribuindo para a preservação da memória, da história e das tradições locais.",
     "midias": [
         { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.1", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" }
-    ],
-            "14": {
+        { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" }
+        ]
+      },
+            "15": {
     "titulo": "Catedral São Thomaz de Cantuária",
     "artista": "Não aplicável por ser uma arquitetura religiosa",
     "localizacao": "Praça Desembagador Montenegro, Centro, Camaçari - BA",
@@ -181,7 +184,7 @@
       { "tipo": "img", "url": "./Midias/14/Vitrais.presbiterio", "classe": "foto-galeria" },
       { "tipo": "img", "url": "./Midias/14/Vitrais.presbiterio.2", "classe": "foto-galeria" }
     ],
-               "15": {
+            "16": {
     "titulo": "Paróquia Senhora Sant'Ana",
     "artista": "Não aplicável por ser uma arquitetura religiosa",
     "localizacao": "Avenida do Canal, Gleba A, Camaçari - BA",
@@ -189,6 +192,8 @@
     "analise": "O presépio representa o nascimento de Jesus Cristo, simbolizando valores como fé, esperança, união e solidariedade. Tradicionalmente montado durante o período natalino, ele constitui uma importante manifestação da cultura e da religiosidade cristã.",
     "midias": [
       { "tipo": "img", "url": "./Midias/15/Presepio", "classe": "foto-galeria" },
-      { "tipo": "img", "url": "./Midias/15/SPresepio.2", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/15/SPresepio.2", "classe": "foto-galeria" }
     ]
+  }
+}
 }
