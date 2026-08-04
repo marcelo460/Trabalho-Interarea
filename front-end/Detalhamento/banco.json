@@ -102,7 +102,7 @@
   "9": {
     "titulo": "Não identificado",
     "artista": "Wal Correia, @Cidade_Hostil",
-    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
+    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari - BA",
     "contexto": "O mural retrata um gorila com parte do rosto transformada em componentes mecânicos e eletrônicos, unindo elementos da natureza e da tecnologia em uma composição marcante. Seus componentes eletrônicos são representados pela própria parte elétrica do lugar.",
     "analise": "A obra compõe a identidade visual de um estúdio de tatuagem e convida à reflexão sobre a relação entre o ser humano, a tecnologia e o meio ambiente, além de valorizar o grafite como forma de expressão artística e transformar o espaço urbano em um ambiente de cultura e conscientização.",
     "midias": [
@@ -115,7 +115,7 @@
   "10": {
     "titulo": "Detalhamento Indisponivél.",
       "artista": "Wal Correia, @Cidade_Hostil",
-    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
+    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari - BA",
     "contexto": "O mural retrata o perfil de uma mulher negra usando um turbante verde e brincos, ao lado da frase (Sabedoria) em destaque, acompanhada por formas geométricas e elementos florais que reforçam a composição artística.",
     "analise": "A obra valoriza a identidade e a cultura negra, destacando a sabedoria como um símbolo de resistência e conhecimento. Além disso, promove representatividade, combate preconceitos e transforma o espaço urbano em um local de reflexão e valorização da diversidade.",
     "midias": [
@@ -131,7 +131,7 @@
   "12": {
     "titulo": "Não identificado",
     "artista": "Wall Correira, @Cidade_Hostil",
-    "localizacao": "Avenida Sul; Inocoop; Camaçari, BA",
+    "localizacao": "Avenida Sul; Inocoop; Camaçari - BA",
     "contexto": " A obra retrata uma onça-pintada e um tucano, dois animais marcantes da fauna brasileira, cercados por folhas e formas geométricas que lembram circuitos tecnológicos. A combinação dos elementos naturais e modernos destaca a riqueza da biodiversidade e a relação entre natureza, cidade e tecnologia.",
     "analise": "A pintura desperta a conscientização sobre a importância da preservação da fauna e do meio ambiente. Além de valorizar espécies brasileiras, incentiva o respeito à natureza e transforma o espaço urbano em um ambiente mais cultural, educativo e visualmente atrativo.",
     "midias": [
@@ -143,12 +143,52 @@
       "13": {
     "titulo": "Comunidade Nossa Senhora de Guadalupe",
     "artista": "Não aplicável por ser uma arquitetura religiosa",
-    "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63 – Camaçari, BA",
+    "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63, Camaçari - BA",
     "contexto": "A arquitetura simples e harmônica de tonalidade bege constituem o design central da igreja, que também conta com elementos naturais, como árvores, para destacar a sua beleza. Outro detalhe seria o muro que a contorna, proporcionando maior segurança ao ambiente religioso.",
     "analise": "A igreja constitui o espaço primordial para os católicos por ser o local de renovação da fé, intimidade com o sagrado e profundidade espiritual através dos sacramentos - como o da Reconciliação e o da Comunhão. Além de ser um importante patrimônio da comunidade, contribuindo para a preservação da memória, da história e das tradições locais.",
     "midias": [
         { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.1", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" },
     ]
-  }
+  },
+        "13": {
+    "titulo": "Comunidade Nossa Senhora de Guadalupe",
+    "artista": "Não aplicável por ser uma arquitetura religiosa",
+    "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63, Camaçari - BA",
+    "contexto": "A arquitetura simples e harmônica de tonalidade bege constituem o design central da igreja, que também conta com elementos naturais, como árvores, para destacar a sua beleza. Outro detalhe seria o muro que a contorna, proporcionando maior segurança ao ambiente religioso.",
+    "analise": "A igreja constitui o espaço primordial para os católicos por ser o local de renovação da fé, intimidade com o sagrado e profundidade espiritual através dos sacramentos - como o da Reconciliação e o da Comunhão. Além de ser um importante patrimônio da comunidade, contribuindo para a preservação da memória, da história e das tradições locais.",
+    "midias": [
+        { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.1", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" }
+    ],
+            "14": {
+    "titulo": "Catedral São Thomaz de Cantuária",
+    "artista": "Não aplicável por ser uma arquitetura religiosa",
+    "localizacao": "Praça Desembagador Montenegro, Centro, Camaçari - BA",
+    "contexto":  "A Catedral de Camaçari é um grande templo religioso que serve como marco histórico, símbolo de identidade para a população local e ponto central de unidade na fé, sendo um ambiente de profunda espiritualidade e encontro com o sobrenatural",
+    "analise": "A beleza dos vitrais da igreja transmite uma perfeita união entre luz, cor, fé e significado, transformando a luz do sol em mensagens sagradas que contam histórias bíblicas e possuem simbologias excepcionais. Além de seu valor devocional, essas representações preservam a memória religiosa local e evidenciam a importância da Catedral como espaço de espiritualidade, tradição e patrimônio cultural do município.",
+    "midias": [
+        { "tipo": "video", "url": "./Midias/14/Catedral.360", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/14/Senhora.de.Aparecida", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/São.Thomaz.Cantuária", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Santa.Dulce", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/São.Pedro.e.Paulo", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Vitrais.natureza", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Vitrais.natureza.2", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Vitrais.natureza.3", "classe": "foto-galeria" }, 
+      { "tipo": "img", "url": "./Midias/14/Vitrais.indigena.cidade", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Vitral.fogueira", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Vitrais.presbiterio", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/14/Vitrais.presbiterio.2", "classe": "foto-galeria" }
+    ],
+               "15": {
+    "titulo": "Paróquia Senhora Sant'Ana",
+    "artista": "Não aplicável por ser uma arquitetura religiosa",
+    "localizacao": "Avenida do Canal, Gleba A, Camaçari - BA",
+    "contexto": "A arquitetura medieval compõe a característica principal da igreja, sendo composta por cores sóbrias, traços simétricos, janelas ogivais e detalhes ornamentados em azul para realçar alguns elementos construtivos.",
+    "analise": "O presépio representa o nascimento de Jesus Cristo, simbolizando valores como fé, esperança, união e solidariedade. Tradicionalmente montado durante o período natalino, ele constitui uma importante manifestação da cultura e da religiosidade cristã.",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/15/Presepio", "classe": "foto-galeria" },
+      { "tipo": "img", "url": "./Midias/15/SPresepio.2", "classe": "foto-galeria" },
+    ]
 }
