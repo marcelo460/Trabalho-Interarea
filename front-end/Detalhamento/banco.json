@@ -10,7 +10,7 @@
       { "tipo": "img", "url": "./Midias/1/mulher_black.avif", "classe": "" },
       { "tipo": "video", "url": "./Midias/1/mulher_black_360.mp4", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/1/mulher_black_frase.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.avif", "classe": " " }
+      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.avif", "classe": "" }
             
     ]
   },
