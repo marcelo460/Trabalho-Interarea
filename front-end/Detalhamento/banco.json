@@ -119,10 +119,10 @@
     "contexto": "O mural retrata o perfil de uma mulher negra usando um turbante verde e brincos, ao lado da frase (Sabedoria) em destaque, acompanhada por formas geométricas e elementos florais que reforçam a composição artística.",
     "analise": "A obra valoriza a identidade e a cultura negra, destacando a sabedoria como um símbolo de resistência e conhecimento. Além disso, promove representatividade, combate preconceitos e transforma o espaço urbano em um local de reflexão e valorização da diversidade.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/9/gorila_longe_resultado.avif", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/9/gorila_resultado.avif", "classe": "grande-vertical" },
-      { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/9/gorila_zoom_resultado.avif", "classe": "grande-vertical" }
+      { "tipo": "img", "url": "./Midias/10/gorila_longe_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/10/gorila_resultado.avif", "classe": "grande-vertical" },
+      { "tipo": "video", "url": "./Midias/10/gorila_360.mp4", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/10/gorila_zoom_resultado.avif", "classe": "grande-vertical" }
     ]
   },
   "11": {
