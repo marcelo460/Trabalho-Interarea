@@ -48,11 +48,11 @@
     ]
   },
   "5": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
+    "titulo": "Restaurante da Coló",
+    "artista": "Não correspondente",
+    "localizacao": "Praça das Amendoeiras, Arembepe – Camaçari, BA.",
+    "contexto": "O mural pintado sobre parede de textura clara retrata quatro mulheres negras com trajes e turbantes coloridos e estampados, remetendo à estética visual das baianas e à tradição pesqueira/gastronômica local. À esquerda, três figuras estão dispostas em grupo, enquanto à direita uma baiana segura uma travessa em formato de peixe contendo o nome do estabelecimento (COLÓ) e o identificador de sua rede social (@restaurantedacolooficial). A obra traz elementos florais, folhas e cores quentes e vibrantes, integrando a decoração interna/externa do restaurante tradicional da praça central de Arembepe.",
+    "analise": "A pintura mural atua na construção da identidade visual do estabelecimento comercial e contribui para a valorização da cultura afro-baiana no espaço público/gastronômico de Arembepe. Ao estampar figuras femininas negras em destaque com trajes típicos e elementos da culinária litorânea, a obra fortalece a representatividade, a memória cultural e o acolhimento turístico. No âmbito do espaço urbano e do turismo local, intervenções artísticas desse tipo ajudam a humanizar o ambiente comercial, conectando a tradição gastronômica da vila de pescadores ao patrimônio imaterial da região de Camaçari.",
     "midias": [
       { "tipo": "img", "url": "./Midias/5/mulheres_negras_resultado.avif", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/5/festa_resultado.avif", "classe": "grande-vertical" },
@@ -78,22 +78,22 @@
     ]
   },
   "7": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
+    "titulo": "Acarajé da Jocineide",
+    "artista": "Não correspondente",
+    "localizacao": "Praça das Amendoeiras, Arembepe – Camaçari, BA.",
+    "contexto": "O registro panorâmico captura a praça central litorânea de Arembepe, destacando em seu centro uma estrutura estruturada em quiosque coberto com telhas cerâmicas estilo colonial onde funciona o Acarajé da Jocineide. O entorno é marcado por pavimentação em blocos intertravados (piso intertravado), uma área delimitada de estacionamento de veículos, residências e estabelecimentos comerciais coloridos típicos de vilas praianas, além de infraestrutura urbana básica como bicicletários amarronzados/amarelos e postes de iluminação pública. Arembepe traz historicamente a transição de antiga vila de pescadores e refúgio hippie nos anos 1960/70 para um polo turístico e gastronômico do litoral norte de Camaçari.",
+    "analise": "O ponto comercial do acarajé atua como um polo de permanência, encontro e valorização da cultura afro-baiana no espaço público de Arembepe. A venda do acarajé por baianas locais perpetua um patrimônio imaterial nacional no cotidiano urbano. Sob a perspectiva do espaço público, a praça desempenha um papel de convivência comunitária e suporte ao turismo, oferecendo acessibilidade visual, áreas de descanso e dinamismo comercial. No entanto, a grande ocupação de veículos no estacionamento central evidencia a tensão entre a priorização do transporte motorizado individual e a destinação do espaço público para pedestres e áreas de lazer, desafiando o planejamento urbano a integrar melhor o fluxo de turistas sem descaracterizar a escala humana do local.",
     "midias": [
       { "tipo": "img", "url": "./Midias/7/paisagem_praca_resultado.avif", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/7/paisagem_praia_resultado.avif", "classe": "grande-horizontal" }
     ]
   },
   "8": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",
-    "analise": "Aguardando texto...",
+    "titulo": "Cangaço",
+    "artista": "Não encontrado",
+    "localizacao": "Camaçari, localizado na Região Metropolitana de Salvador, Bahia.",
+    "contexto": "As pinturas representam elementos da cultura nordestina, com destaque para a Literatura de Cordel e referências à identidade regional. As obras dialogam com movimentos de valorização da arte urbana em Camaçari, como o Camaça Graffiti e o projeto Se Esse Túnel Fosse Meu. Esses projetos buscam valorizar a história local, os povos originários e as manifestações afro-brasileiras por meio do graffiti. O registro digital das obras contribui para a preservação da memória artística da cidade.",
+    "analise": "A arte transforma muros e espaços urbanos comuns em locais de expressão cultural e valorização da história. O uso de cores vibrantes e elementos inspirados na xilogravura aproxima o graffiti moderno das tradições populares nordestinas. As intervenções promovem inclusão social ao levar arte para espaços públicos, permitindo maior acesso da população à cultura. As obras fortalecem a identidade de Camaçari e criam sentimento de pertencimento entre os moradores. O projeto contribui para reconhecer a arte urbana como parte do patrimônio cultural da cidade.",
     "midias": [
       { "tipo": "img", "url": "./Midias/8/cangaco_resultado.avif", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/8/mulher_natureza_resultado.avif", "classe": "grande-horizontal" },
@@ -154,6 +154,28 @@
     "midias": [
       { "tipo": "img", "url": "./Midias/13/Senhora_de_Guadalupe_resultado.avif", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/13/Senhora_de_Guadalupe_2_resultado.avif", "classe": "grande-horizontal" }
+    ]
+  },
+  "14": {
+    "titulo": "Catedral",
+    "artista": "Não aplicável por ser uma arquitetura religiosa",
+    "localizacao": "Praça Desembargador Montenegro, Centro, Camaçari - BA",
+    "contexto": "A Catedral de Camaçari é um grande templo religioso que serve como marco histórico, símbolo de identidade para a população local e ponto central de unidade na fé, sendo um ambiente de profunda espiritualidade e encontro com o sobrenatural.",
+    "analise": "A beleza dos vitrais da igreja transmite uma perfeita união entre luz, cor, fé e significado, transformando a luz do sol em mensagens sagradas que contam histórias bíblicas e possuem simbologias excepcionais. Além de seu valor devocional, essas representações preservam a memória religiosa local e evidenciam a importância da Catedral como espaço de espiritualidade, tradição e patrimônio cultural do município.",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/14/Vitrais.presbiterio_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/14/Senhora_Aparecida.avif", "classe": "grande-horizontal" }
+    ]
+  },
+  "15": {
+    "titulo": "Paróquia Senhora Sant'Ana",
+    "artista": "Não aplicável por ser uma arquitetura religiosa",
+    "localizacao": "Avenida do Canal, Gleba A, Camaçari - BA",
+    "contexto": "A Igreja Nossa Senhora Santana possui relação com a formação histórica de Camaçari, representando a presença do catolicismo na construção da identidade do município. Nossa Senhora Santana é considerada a padroeira de diversas comunidades católicas e sua devoção está ligada à tradição religiosa trazida durante o período colonial brasileiro. O templo funciona como espaço de celebrações religiosas, festas comunitárias e manifestações culturais, mantendo uma ligação entre fé, memória e convivência social. Ao longo do tempo, passou por processos de conservação e adaptações para acompanhar as necessidades da comunidade.",
+    "analise": "A igreja possui importância simbólica e histórica, pois contribui para a preservação da memória coletiva de Camaçari. Sua presença fortalece a identidade do centro urbano, funcionando como um marco visual e um ponto de encontro para moradores. O espaço ao redor da igreja influencia a dinâmica da cidade, principalmente durante eventos religiosos e festividades, movimentando o comércio local e aumentando a circulação de pessoas. Como patrimônio cultural, destaca a necessidade de manutenção e valorização dos espaços históricos diante do crescimento urbano de Camaçari. Um desafio é equilibrar a preservação da arquitetura e da história do local com as transformações modernas da cidade, garantindo que o patrimônio continue acessível às novas gerações.",
+    "midias": [
+      { "tipo": "img", "url": "./Midias/15/Presepio_2.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/15/Presepio_1.avif", "classe": "grande-vertical" }
     ]
   }
 }
