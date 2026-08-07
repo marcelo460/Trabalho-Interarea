@@ -10,8 +10,7 @@
       { "tipo": "img", "url": "./Midias/1/mulher_black.avif", "classe": "" },
       { "tipo": "video", "url": "./Midias/1/mulher_black_360.mp4", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/1/mulher_black_frase.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.avif", "classe": "" }
-            
+      { "tipo": "img", "url": "./Midias/1/mulher_black_corpo.avif", "classe": " " }
     ]
   },
   "2": {
@@ -33,7 +32,7 @@
     "contexto": "A pintura retrata uma mulher negra em destaque, usando turbante e brincos dourados, cercada por flores, folhas e frutos coloridos. As cores vibrantes e os elementos naturais representam a beleza, a força, a ancestralidade e a riqueza da cultura afro-brasileira.",
     "analise": "A obra fortalece a valorização da cultura e da identidade negra, promovendo representatividade e respeito à diversidade. Além de embelezar o espaço público, incentiva a reflexão sobre igualdade, inclusão e o reconhecimento das contribuições da população negra para a sociedade",
     "midias": [
-    { "tipo": "img", "url": "./Midias/3/Mulher_negra.avif", "classe": "bloco-destaque" }
+      { "tipo": "img", "url": "./Midias/3/Mulher_negra.avif", "classe": "bloco-destaque" }
     ]
   },
   "4": {
@@ -49,60 +48,64 @@
     ]
   },
   "5": {
-    "titulo": "Não possui",
-    "artista": "Lena (No entanto, não foi encontrado redes sociais ou contatos da artista)",
-    "localizacao": "Restaurante Casa da Coló, Praça das Amendoeiras - Arembepe, Camaçari - BA",
-    "contexto": "Os murais internos combinam elementos da música, da festividade e do protagonismo feminino baiano. De um lado, a composição apresenta figuras humanas vestidas com trajes e turbantes coloridos tradicionais, retratadas em momento de união e celebração, com destaque para a figura central que traz um cesto com aves e flores sobre a cabeça enquanto segura a placa de identificação do estabelecimento COLÓ. Do outro lado, o painel se estende em uma cena festiva e dinâmica com pessoas dançando e tocando instrumentos como maracás, violão e tambores, acompanhadas por elementos visuais como notas musicais, teclado de piano estilizado e discos de vinil sobre fundo vibrante e fluído.",
-    "analise": "Fundado originalmente em 1963 por Dona Coló de Souza e seu marido, o local começou como um ponto para alimentação voltada à comunidade de pescadora. Com o progresso da popularidade do local em 1970, a obra homenageia a figura feminina baiana, a ancestralidade e a tradição gastronômica local ligadas à história do restaurante, além de valorizar a música, a dança e a cultura popular nordestina. Ao integrar a arte ao espaço interno do estabelecimento, o painel fortalece a identidade afro-brasileira, estimula o sentimento de pertencimento e enriquece a experiência cultural de moradores e visitantes em Arembepe.",
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
     "midias": [
       { "tipo": "img", "url": "./Midias/5/mulheres_negras_resultado.avif", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/5/festa_resultado.avif", "classe": "grande-vertical" },
       { "tipo": "img", "url": "./Midias/5/festa_longe_resultado.avif", "classe": "grande-horizontal" },
       { "tipo": "img", "url": "./Midias/5/praia_resultado.avif", "classe": "grande-vertical" },
       { "tipo": "img", "url": "./Midias/5/mulheres_negras_longe_resultado.avif", "classe": "foto-galeria" }
-
     ]
   },
   "6": {
-    "titulo": "Aguardando texto do Nathaniel...",
-    "artista": "Aguardando texto do Nathaniel...",
-    "localizacao": "Aguardando texto do Nathaniel...",
-    "contexto": "Aguardando texto...",  
-    "analise": "Aguardando texto...",
+    "titulo": "Grupo de Capoeira Discípulos de Mestre Petróleo ",
+    "artista": "Não correspondente, por ser uma manifestação artística e cultural ",
+    "localizacao": "Machadinho-BA",
+    "contexto": "A capoeira é um movimento artístico e cultural que influencia a identidade do local ao funcionar como pilar de memória, arte e integração social. Ela transforma comunidades em espaços de vivência, unindo música, esporte e história para valorizar as raízes culturais e promover o orgulho coletivo, além de servir como defesa corporal.",
+    "analise": "Projeto voluntário do grupo Discípulos de Mestre Petróleo na comunidade carente de Machadinho. Foi desenvolvido pelo Mestre Vando – já falecido – e teve continuidade com os Mestres Alex e Mestre Edson e com o Contra-Mestre Cavalo, que se responsabilizaram pela iniciativa e que ministram as aulas.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/6/", "classe": "bloco-destaque" }
+      { "tipo": "img", "url": "./Midias/6/capoeira1.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/6/capoeira2.avif", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/6/capoeira3.avif", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/6/capoeira4.avif", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/6/capoeira5.avif", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/6/capoeira6.avif", "classe": "grande-vertical" },
+      { "tipo": "video", "url": "./Midias/6/capoeira.mp4", "classe": "grande-vertical" }
     ]
   },
   "7": {
-    "titulo": "Praça das Amendoeiras - Quiosque Acarajé da Jocineide",
-    "artista": "Não aplicável por ser espaço público",
-    "localizacao": "Praça das Amendoeiras ( juntamente com o estabelecimente, Acarajé da Jocineide)",
-    "contexto": "Vista panorâmica da praça central pavimentada com blocos intertravados de concreto, cercada por estabelecimentos comerciais, residências e coqueiros típicos da orla costeira. No centro da composição sobressai o quiosque rústico de telhado cerâmico do Acarajé da Jocineide, acompanhado de mesas e cadeiras para atendimento de clientes ao ar livre. Ao fundo, observa-se a área de estacionamento de veículos e a proximidade com o conjunto arquitetônico da vila de pescadores.",
-    "analise": "A praça e o quiosque representam um importante ponto de convivência social, lazer e preservação da tradição gastronômica baiana em Arembepe. O local fortalece a economia criativa, o turismo cultural e a identidade comunitária, servindo como ponto de encontro entre moradores, visitantes e baianas de acarajé que salvaguardam o patrimônio imaterial da culinária afro-brasileira no município.",
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
     "midias": [
       { "tipo": "img", "url": "./Midias/7/paisagem_praca_resultado.avif", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/7/paisagem_praia_resultado.avif", "classe": "grande-horizontal" }
     ]
   },
   "8": {
-    "titulo": "Não possui",
-    "artista": "Luciano LBS",
-    "localizacao": "Marginal Avenida Jorge Amado – Camaçari, BA",
-    "contexto": "A pintura retrata um cordelista sorridente segurando folhetos de cordel, com um violão ao fundo e elementos da natureza ao redor. A obra faz referência à literatura de cordel, uma importante manifestação da cultura popular nordestina, destacando sua tradição e riqueza cultural.",
-    "analise": "A obra valoriza a literatura de cordel e a cultura popular brasileira, incentivando a preservação das tradições e da identidade regional. Além de tornar o espaço mais atrativo, desperta o interesse pela leitura, pela arte e pela história, fortalecendo o reconhecimento da cultura nordestina.",
+    "titulo": "Aguardando texto do Nathaniel...",
+    "artista": "Aguardando texto do Nathaniel...",
+    "localizacao": "Aguardando texto do Nathaniel...",
+    "contexto": "Aguardando texto...",
+    "analise": "Aguardando texto...",
     "midias": [
       { "tipo": "img", "url": "./Midias/8/cangaco_resultado.avif", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/8/mulher_natureza_resultado.avif", "classe": "grande-horizontal" },
       { "tipo": "img", "url": "./Midias/8/arvore_resultado.avif", "classe": "grande-horizontal" },
       { "tipo": "img", "url": "./Midias/8/iemanja_resultado.avif", "classe": "vizualizacao-360" },
       { "tipo": "img", "url": "./Midias/8/tartaruga_resultado.avif", "classe": "grande-horizontal" }
-      
     ]
   },
   "9": {
     "titulo": "Não identificado",
     "artista": "Wal Correia, @Cidade_Hostil",
-    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari - BA",
+    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
     "contexto": "O mural retrata um gorila com parte do rosto transformada em componentes mecânicos e eletrônicos, unindo elementos da natureza e da tecnologia em uma composição marcante. Seus componentes eletrônicos são representados pela própria parte elétrica do lugar.",
     "analise": "A obra compõe a identidade visual de um estúdio de tatuagem e convida à reflexão sobre a relação entre o ser humano, a tecnologia e o meio ambiente, além de valorizar o grafite como forma de expressão artística e transformar o espaço urbano em um ambiente de cultura e conscientização.",
     "midias": [
@@ -113,16 +116,16 @@
     ]
   },
   "10": {
-    "titulo": "Sabedoria",
-      "artista": "Wal Correia, @Cidade_Hostil",
-    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari - BA",
+    "titulo": "Detalhamento Indisponivél.",
+    "artista": "Wal Correia, @Cidade_Hostil",
+    "localizacao": "Rua Segunda do Parque; Gleba B; Camaçari, BA",
     "contexto": "O mural retrata o perfil de uma mulher negra usando um turbante verde e brincos, ao lado da frase (Sabedoria) em destaque, acompanhada por formas geométricas e elementos florais que reforçam a composição artística.",
     "analise": "A obra valoriza a identidade e a cultura negra, destacando a sabedoria como um símbolo de resistência e conhecimento. Além disso, promove representatividade, combate preconceitos e transforma o espaço urbano em um local de reflexão e valorização da diversidade.",
     "midias": [
-      { "tipo": "img", "url": "./Midias/10/idosa_negra_longe_resultado.avif", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/10/idosa_negra_resultado.avif", "classe": "grande-vertical" },
-      { "tipo": "video", "url": "./Midias/10/idosa_negra_360.mp4", "classe": "vizualizacao-360" },
-      { "tipo": "img", "url": "./Midias/10/idosa_negra_zoom_resultado.avif", "classe": "grande-vertical" }
+      { "tipo": "img", "url": "./Midias/9/gorila_longe_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/9/gorila_resultado.avif", "classe": "grande-vertical" },
+      { "tipo": "video", "url": "./Midias/9/gorila_360.mp4", "classe": "vizualizacao-360" },
+      { "tipo": "img", "url": "./Midias/9/gorila_zoom_resultado.avif", "classe": "grande-vertical" }
     ]
   },
   "11": {
@@ -131,7 +134,7 @@
   "12": {
     "titulo": "Não identificado",
     "artista": "Wall Correira, @Cidade_Hostil",
-    "localizacao": "Avenida Sul; Inocoop; Camaçari - BA",
+    "localizacao": "Avenida Sul; Inocoop; Camaçari, BA",
     "contexto": " A obra retrata uma onça-pintada e um tucano, dois animais marcantes da fauna brasileira, cercados por folhas e formas geométricas que lembram circuitos tecnológicos. A combinação dos elementos naturais e modernos destaca a riqueza da biodiversidade e a relação entre natureza, cidade e tecnologia.",
     "analise": "A pintura desperta a conscientização sobre a importância da preservação da fauna e do meio ambiente. Além de valorizar espécies brasileiras, incentiva o respeito à natureza e transforma o espaço urbano em um ambiente mais cultural, educativo e visualmente atrativo.",
     "midias": [
@@ -142,46 +145,15 @@
       { "tipo": "img", "url": "./Midias/12/tucano_perto_resultado.avif", "classe": "foto-galeria" }
     ]
   },
-      "13": {
+  "13": {
     "titulo": "Comunidade Nossa Senhora de Guadalupe",
-    "artista": "Não definido.",
-    "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63, Camaçari - BA",
+    "artista": "Não aplicável por ser uma arquitetura religiosa",
+    "localizacao": "Rua Bahia, Bairro Novo Horizonte, nº 63 – Camaçari, BA",
     "contexto": "A arquitetura simples e harmônica de tonalidade bege constituem o design central da igreja, que também conta com elementos naturais, como árvores, para destacar a sua beleza. Outro detalhe seria o muro que a contorna, proporcionando maior segurança ao ambiente religioso.",
     "analise": "A igreja constitui o espaço primordial para os católicos por ser o local de renovação da fé, intimidade com o sagrado e profundidade espiritual através dos sacramentos - como o da Reconciliação e o da Comunhão. Além de ser um importante patrimônio da comunidade, contribuindo para a preservação da memória, da história e das tradições locais.",
     "midias": [
-        { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.1", "classe": "bloco-destaque" },
-        { "tipo": "img", "url": "./Midias/13/Senhora.de.Guadalupe.2", "classe": "grande-horizontal" }
-    ]
-  },
-      "14": {
-    "titulo": "Catedral São Thomaz de Cantuária",
-    "artista": "Não definido.",
-    "localizacao": "Praça Desembagador Montenegro, Centro, Camaçari - BA",
-    "contexto":  "A Catedral de Camaçari é um grande templo religioso que serve como marco histórico, símbolo de identidade para a população local e ponto central de unidade na fé, sendo um ambiente de profunda espiritualidade e encontro com o sobrenatural.",
-    "analise": "A beleza dos vitrais da igreja transmite uma perfeita união entre luz, cor, fé e significado, transformando a luz do sol em mensagens sagradas que contam histórias bíblicas e possuem simbologias excepcionais. Além de seu valor devocional, essas representações preservam a memória religiosa local e evidenciam a importância da Catedral como espaço de espiritualidade, tradição e patrimônio cultural do município.",
-    "midias": [
-      { "tipo": "img", "url": "./Midias/14/cruz.avif", "classe": "bloco-destaque" },
-      { "tipo": "img", "url": "./Midias/14/senhora_aparecida.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/sao_thomaz_cantuaria.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/santa_dulce.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/sao_pedro_paulo.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/vitrais_1.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/vitrais_2.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/vitrais_3.avif", "classe": "grande-vertical" }, 
-      { "tipo": "img", "url": "./Midias/14/vitrais_4.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/vitrais_5.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/14/vitrais_6.avif", "classe": "grande-vertical" }
-    ],
-            "15": {
-    "titulo": "Paróquia Senhora Sant'Ana",
-    "artista": "Não definido.",
-    "localizacao": "Avenida do Canal, Gleba A, Camaçari - BA",
-    "contexto": "A arquitetura medieval compõe a característica principal da igreja, sendo composta por cores sóbrias, traços simétricos, janelas ogivais e detalhes ornamentados em azul para realçar alguns elementos construtivos.",
-    "analise": "O presépio representa o nascimento de Jesus Cristo, simbolizando valores como fé, esperança, união e solidariedade. Tradicionalmente montado durante o período natalino, ele constitui uma importante manifestação da cultura e da religiosidade cristã.",
-    "midias": [
-      { "tipo": "img", "url": "./Midias/15/presepio_1.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/15/presepio_2.avif", "classe": "grande-vertical" }
+      { "tipo": "img", "url": "./Midias/13/Senhora_de_Guadalupe_resultado.avif", "classe": "bloco-destaque" },
+      { "tipo": "img", "url": "./Midias/13/Senhora_de_Guadalupe_2_resultado.avif", "classe": "grande-horizontal" }
     ]
   }
-}
 }
