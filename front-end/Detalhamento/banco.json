@@ -70,11 +70,11 @@
     "midias": [
       { "tipo": "img", "url": "./Midias/6/capoeira1.avif", "classe": "bloco-destaque" },
       { "tipo": "img", "url": "./Midias/6/capoeira2.avif", "classe": "grande-horizontal" },
-      { "tipo": "img", "url": "./Midias/6/capoeira3.avif", "classe": "grande-vertical" },
-      { "tipo": "img", "url": "./Midias/6/capoeira4.avif", "classe": "grande-horizontal" },
+      { "tipo": "img", "url": "./Midias/6/capoeira3.avif", "classe": "grande-vertical" },   
       { "tipo": "img", "url": "./Midias/6/capoeira5.avif", "classe": "grande-vertical" },
+      { "tipo": "img", "url": "./Midias/6/capoeira4.avif", "classe": "grande-horizontal" },
       { "tipo": "img", "url": "./Midias/6/capoeira6.avif", "classe": "grande-vertical" },
-      { "tipo": "video", "url": "./Midias/6/capoeira.mp4", "classe": "grande-vertical" }
+      { "tipo": "video", "url": "./Midias/6/capoeira.mp4", "classe": "vizualizacao-360" }
     ]
   },
   "7": {
